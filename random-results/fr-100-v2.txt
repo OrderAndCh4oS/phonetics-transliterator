@@ -1,0 +1,1029 @@
+
+----
+
+Word        dirigeante
+Translation /diʁiʒɑ̃t/
+Epitran     diriʒəan
+Result      diriʒəan
+
+----
+
+Word        robotiserais
+Translation /ʁɔbɔtizəʁɛ/
+Epitran     rɔbɔtjzɛrɛ
+Result      rɔbɔtjzərɛ
+
+----
+
+Word        grimons
+Translation /gʁimɔ̃/
+Epitran     ɡrimɔn
+Result      ɡrimɔn
+
+----
+
+Word        menasses
+Translation /mənas/
+Epitran     mənas
+Result      mənas
+
+----
+
+Word        polycopierais
+Translation /pɔlikɔpjəʁɛ/
+Epitran     pɔlikɔpjɛrɛ
+Result      pɔlikɔpjərɛ
+
+----
+
+Word        sacrifièrent
+Translation /sakʁifjɛʁ/
+Epitran     sakrifjɛr
+Result      sakrifjɛr
+
+----
+
+Word        réabonnons
+Translation /ʁeabɔnɔ̃/
+Epitran     reabɔnɔn
+Result      reabɔnɔn
+
+----
+
+Word        hégélien
+Translation /egeljɛ̃/
+Epitran     eʒeljâ
+Result      eʒeljẫ
+
+----
+
+Word        déshydraté
+Translation /dezidʁate/
+Epitran     desidrate
+Result      desidrate
+
+----
+
+Word        conciliassions
+Translation /kɔ̃siljasjɔ̃/
+Epitran     kɔnsiljasjɔn
+Result      kɔnsiljasjɔn
+
+----
+
+Word        parasitisme
+Translation /paʁazitism/
+Epitran     parazitjsm
+Result      parazitjsm
+
+----
+
+Word        enorgueillissiez
+Translation /ɑ̃nɔʁgœjisje/
+Epitran     ənɔrɡɥɛjlisjɛz
+Result      ənɔrɡɥɛjlisjɛz
+
+----
+
+Word        insensées
+Translation /ɛ̃sɑ̃se/
+Epitran     insɛnse
+Result      insɛnse
+
+----
+
+Word        décongèles
+Translation /dekɔ̃ʒɛl/
+Epitran     dekɔnʒɛl
+Result      dekɔnʒɛl
+
+----
+
+Word        espérerai
+Translation /ɛspeʁəʁɛ/
+Epitran     ɛsperɛrɛ
+Result      ɛsperərɛ
+
+----
+
+Word        sauvette
+Translation /sovɛt/
+Epitran     sovɛ
+Result      sovɛ
+
+----
+
+Word        votants
+Translation /vɔtɑ̃/
+Epitran     vɔtât
+Result      vɔtẫt
+
+----
+
+Word        accastilleront
+Translation /akastijəʁɔ̃/
+Epitran     akkastjlɛrɔn
+Result      akkastjlərɔn
+
+----
+
+Word        transbahutât
+Translation /tʁɑ̃sbayta/
+Epitran     trâsbaytɑ
+Result      trẫsbaytɑ
+
+----
+
+Word        accédés
+Translation /aksede/
+Epitran     aksede
+Result      aksede
+
+----
+
+Word        tournicoterai
+Translation /tuʁnikɔtəʁɛ/
+Epitran     turnikɔtɛrɛ
+Result      turnikɔtərɛ
+
+----
+
+Word        délirerait
+Translation /deliʁəʁɛ/
+Epitran     delirɛrɛ
+Result      delirərɛ
+
+----
+
+Word        bagarraient
+Translation /bagaʁɛ/
+Epitran     baɡarraj
+Result      baɡarraj
+
+----
+
+Word        mâchât
+Translation /maʃa/
+Epitran     mɑʃɑ
+Result      mɑʃɑ
+
+----
+
+Word        décomplexent
+Translation /dekɔ̃plɛks/
+Epitran     dekɔ̃plɛ
+Result      dekɔ̃plɛ
+
+----
+
+Word        rempli
+Translation /ʁɑ̃pli/
+Epitran     râpli
+Result      rẫpli
+
+----
+
+Word        abreuvait
+Translation /abʁœvɛ/
+Epitran     abrœvɛ
+Result      abrœvɛ
+
+----
+
+Word        acidités
+Translation /asidite/
+Epitran     azidite
+Result      azidite
+
+----
+
+Word        bouclent
+Translation /bukl/
+Epitran     bukl
+Result      bukl
+
+----
+
+Word        grognait
+Translation /gʁɔɲɛ/
+Epitran     ɡrɔɲɛ
+Result      ɡrɔɲɛ
+
+----
+
+Word        pensionnas
+Translation /pɑ̃sjɔna/
+Epitran     pâsjɔna
+Result      pẫsjɔna
+
+----
+
+Word        quadrillé
+Translation /kadʁije/
+Epitran     kadrije
+Result      kadrije
+
+----
+
+Word        vivez
+Translation /vive/
+Epitran     vivɛz
+Result      vivɛz
+
+----
+
+Word        succombés
+Translation /sykɔ̃be/
+Epitran     sykkɔmbe
+Result      sykkɔmbe
+
+----
+
+Word        aménager
+Translation /amenaʒe/
+Epitran     amenaʒe
+Result      amenaʒe
+
+----
+
+Word        subjuguerait
+Translation /sybʒygəʁɛ/
+Epitran     sybʒyɡɥɛrɛ
+Result      sybʒyɡɥərɛ
+
+----
+
+Word        instituée
+Translation /ɛ̃stitɥe/
+Epitran     ɛ̃stjtɥe
+Result      ɛ̃stjtɥe
+
+----
+
+Word        redémarrée
+Translation /ʁədemaʁe/
+Epitran     rədemarre
+Result      rədemarre
+
+----
+
+Word        éliminassions
+Translation /eliminasjɔ̃/
+Epitran     eliminasjɔn
+Result      eliminasjɔn
+
+----
+
+Word        adressons
+Translation /adʁɛsɔ̃/
+Epitran     adrɛsɔn
+Result      adrɛsɔn
+
+----
+
+Word        refilassions
+Translation /ʁəfilasjɔ̃/
+Epitran     rəfilasjɔn
+Result      rəfilasjɔn
+
+----
+
+Word        forages
+Translation /fɔʁaʒ/
+Epitran     fɔraʒ
+Result      fɔraʒ
+
+----
+
+Word        consciente
+Translation /kɔ̃sjɑ̃t/
+Epitran     kɔ̃skjɛn
+Result      kɔ̃skjɛn
+
+----
+
+Word        cartonneuse
+Translation /kaʁtɔnøz/
+Epitran     kartɔnœz
+Result      kartɔnœz
+
+----
+
+Word        extrémisme
+Translation /ɛkstʁemism/
+Epitran     ɛkstremism
+Result      ɛkstremism
+
+----
+
+Word        redescende
+Translation /ʁədesɑ̃d/
+Epitran     rədɛzɛn
+Result      rədəzɛn
+
+----
+
+Word        réservé
+Translation /ʁezɛʁve/
+Epitran     rezɛrve
+Result      rezɛrve
+
+Word        préluderais
+Translation /pʁelydəʁɛ/
+Epitran     prelydɛrɛ
+Result      prelydərɛ
+
+----
+
+Word        dédommagé
+Translation /dedɔmaʒe/
+Epitran     dedɔmaʒe
+Result      dedɔmaʒe
+
+----
+
+Word        ceignîmes
+Translation /sɛɲim/
+Epitran     sɛɲim
+Result      sɛɲim
+
+----
+
+Word        inquisitoire
+Translation /ɛ̃kizitwaʁ/
+Epitran     inkizitwar
+Result      inkizitwar
+
+----
+
+Word        dégradèrent
+Translation /degʁadɛʁ/
+Epitran     deɡradɛr
+Result      deɡradɛr
+
+----
+
+Word        tournicotions
+Translation /tuʁnikɔtjɔ̃/
+Epitran     turnikɔtjɔn
+Result      turnikɔtjɔn
+
+----
+
+Word        écoutais
+Translation /ekutɛ/
+Epitran     ekutɛ
+Result      ekutɛ
+
+----
+
+Word        transportai
+Translation /tʁɑ̃spɔʁtɛ/
+Epitran     trâspɔrtɛ
+Result      trẫspɔrtɛ
+
+----
+
+Word        gambadez
+Translation /gɑ̃bade/
+Epitran     ɡambadɛz
+Result      ɡambadɛz
+
+----
+
+Word        confinements
+Translation /kɔ̃finmɑ̃/
+Epitran     kɔnfinɛmât
+Result      kɔnfinəmẫt
+
+----
+
+Word        enkysteraient
+Translation /ɑ̃kistəʁɛ/
+Epitran     ɛnkistɛraj
+Result      ɛnkistəraj
+
+----
+
+Word        subsistâtes
+Translation /sybzistat/
+Epitran     sybsistɑt
+Result      sybsistɑt
+
+----
+
+Word        cri
+Translation /kʁi/
+Epitran     kri
+Result      kri
+
+----
+
+Word        feu
+Translation /fø/
+Epitran     fœ
+Result      fœ
+
+----
+
+Word        management
+Translation /manadʒmɛnt/
+Epitran     manaʒɛm
+Result      manaʒɛm
+
+----
+
+Word        lambinée
+Translation /lɑ̃bine/
+Epitran     lambine
+Result      lambine
+
+----
+
+Word        tartinaient
+Translation /taʁtinɛ/
+Epitran     tartjnaj
+Result      tartjnaj
+
+----
+
+Word        insérerai
+Translation /ɛ̃seʁəʁɛ/
+Epitran     inserɛrɛ
+Result      inserərɛ
+
+----
+
+Word        ristournassent
+Translation /ʁistuʁnas/
+Epitran     risturnas
+Result      risturnas
+
+----
+
+Word        déplomberont
+Translation /deplɔ̃bəʁɔ̃/
+Epitran     deplɔmbɛrɔn
+Result      deplɔmbərɔn
+
+----
+
+Word        pensèrent
+Translation /pɑ̃sɛʁ/
+Epitran     pɛnsɛr
+Result      pɛnsɛr
+
+----
+
+Word        rassirez
+Translation /ʁasiʁe/
+Epitran     rasirɛz
+Result      rasirɛz
+
+----
+
+Word        procréerons
+Translation /pʁɔkʁeəʁɔ̃/
+Epitran     prɔkreɛrɔn
+Result      prɔkrerɔn
+
+----
+
+Word        caillions
+Translation /kajɔ̃/
+Epitran     kajljɔn
+Result      kajljɔn
+
+----
+
+Word        approuvées
+Translation /apʁuve/
+Epitran     apruve
+Result      apruve
+
+----
+
+Word        cloqués
+Translation /klɔke/
+Epitran     klɔke
+Result      klɔke
+
+----
+
+Word        mousson
+Translation /musɔ̃/
+Epitran     musɔ̃
+Result      musɔ̃
+
+----
+
+Word        cloisonnâtes
+Translation /klwazɔnat/
+Epitran     klwazɔnɑt
+Result      klwazɔnɑt
+
+----
+
+Word        encapuchonnions
+Translation /ɑ̃kapyʃɔnjɔ̃/
+Epitran     ɛnkapyʃɔ̃njɔn
+Result      ɛnkapyʃɔ̃njɔn
+
+----
+
+Word        lénifiasse
+Translation /lenifjas/
+Epitran     lenifjas
+Result      lenifjas
+
+----
+
+Word        cadastrées
+Translation /kadastʁe/
+Epitran     kadastre
+Result      kadastre
+
+----
+
+Word        camionnais
+Translation /kamjɔnɛ/
+Epitran     kamjɔnɛ
+Result      kamjɔnɛ
+
+----
+
+Word        définitives
+Translation /definitiv/
+Epitran     definitjv
+Result      definitjv
+
+----
+
+Word        métis
+Translation /metis/
+Epitran     metj
+Result      metj
+
+----
+
+Word        kaléidoscopes
+Translation /kaleidɔskɔp/
+Epitran     kaleidɔskɔp
+Result      kaleidɔskɔp
+
+----
+
+Word        regorgèrent
+Translation /ʁəgɔʁʒɛʁ/
+Epitran     rəɡɔrʒɛr
+Result      rəɡɔrʒɛr
+
+----
+
+Word        dépraverait
+Translation /depʁavəʁɛ/
+Epitran     depravɛrɛ
+Result      depravərɛ
+
+----
+
+Word        rassiriez
+Translation /ʁasiʁje/
+Epitran     rasirjɛz
+Result      rasirjɛz
+
+----
+
+Word        mouillants
+Translation /mujɑ̃/
+Epitran     mujlât
+Result      mujlẫt
+
+----
+
+Word        gondolière
+Translation /gɔ̃dɔljɛʁ/
+Epitran     ɡɔndɔljɛr
+Result      ɡɔndɔljɛr
+
+----
+
+Word        rebrousses
+Translation /ʁəbʁus/
+Epitran     rɛbrus
+Result      rɛbrus
+
+----
+
+Word        acquittât
+Translation /akita/
+Epitran     akkitɑ
+Result      akkitɑ
+
+----
+
+Word        replâtrait
+Translation /ʁəplatʁɛ/
+Epitran     rɛplɑtrɛ
+Result      rɛplɑtrɛ
+
+----
+
+Word        arrivât
+Translation /aʁiva/
+Epitran     arrivɑ
+Result      arrivɑ
+
+----
+
+Word        roulée
+Translation /ʁule/
+Epitran     rule
+Result      rule
+
+----
+
+Word        débusqueras
+Translation /debyskəʁa/
+Epitran     debyskɛra
+Result      debyskəra
+
+----
+
+Word        subvertirai
+Translation /sybvɛʁtiʁɛ/
+Epitran     sybvɛrtjrɛ
+Result      sybvɛrtjrɛ
+
+----
+
+Word        bouchèrent
+Translation /buʃɛʁ/
+Epitran     buʃɛr
+Result      buʃɛr
+
+----
+
+Word        emmitouflerons
+Translation /ɑ̃mitufləʁɔ̃/
+Epitran     ɛmituflɛrɔn
+Result      ɛmituflərɔn
+
+----
+
+Word        dirigeante
+Translation /diʁiʒɑ̃t/
+Epitran     diriʒəan
+Result      diriʒəan
+
+----
+
+Word        robotiserais
+Translation /ʁɔbɔtizəʁɛ/
+Epitran     rɔbɔtjzɛrɛ
+Result      rɔbɔtjzərɛ
+
+----
+
+Word        grimons
+Translation /gʁimɔ̃/
+Epitran     ɡrimɔn
+Result      ɡrimɔn
+
+----
+
+Word        menasses
+Translation /mənas/
+Epitran     mənas
+Result      mənas
+
+----
+
+Word        polycopierais
+Translation /pɔlikɔpjəʁɛ/
+Epitran     pɔlikɔpjɛrɛ
+Result      pɔlikɔpjərɛ
+
+----
+
+Word        sacrifièrent
+Translation /sakʁifjɛʁ/
+Epitran     sakrifjɛr
+Result      sakrifjɛr
+
+----
+
+Word        réabonnons
+Translation /ʁeabɔnɔ̃/
+Epitran     reabɔnɔn
+Result      reabɔnɔn
+
+----
+
+Word        hégélien
+Translation /egeljɛ̃/
+Epitran     eʒeljâ
+Result      eʒeljẫ
+
+----
+
+Word        déshydraté
+Translation /dezidʁate/
+Epitran     desidrate
+Result      desidrate
+
+----
+
+Word        conciliassions
+Translation /kɔ̃siljasjɔ̃/
+Epitran     kɔnsiljasjɔn
+Result      kɔnsiljasjɔn
+
+----
+
+Word        parasitisme
+Translation /paʁazitism/
+Epitran     parazitjsm
+Result      parazitjsm
+
+----
+
+Word        enorgueillissiez
+Translation /ɑ̃nɔʁgœjisje/
+Epitran     ənɔrɡɥɛjlisjɛz
+Result      ənɔrɡɥɛjlisjɛz
+
+----
+
+Word        insensées
+Translation /ɛ̃sɑ̃se/
+Epitran     insɛnse
+Result      insɛnse
+
+----
+
+Word        décongèles
+Translation /dekɔ̃ʒɛl/
+Epitran     dekɔnʒɛl
+Result      dekɔnʒɛl
+
+----
+
+Word        espérerai
+Translation /ɛspeʁəʁɛ/
+Epitran     ɛsperɛrɛ
+Result      ɛsperərɛ
+
+----
+
+Word        sauvette
+Translation /sovɛt/
+Epitran     sovɛ
+Result      sovɛ
+
+----
+
+Word        votants
+Translation /vɔtɑ̃/
+Epitran     vɔtât
+Result      vɔtẫt
+
+----
+
+Word        accastilleront
+Translation /akastijəʁɔ̃/
+Epitran     akkastjlɛrɔn
+Result      akkastjlərɔn
+
+----
+
+Word        transbahutât
+Translation /tʁɑ̃sbayta/
+Epitran     trâsbaytɑ
+Result      trẫsbaytɑ
+
+----
+
+Word        accédés
+Translation /aksede/
+Epitran     aksede
+Result      aksede
+
+----
+
+Word        tournicoterai
+Translation /tuʁnikɔtəʁɛ/
+Epitran     turnikɔtɛrɛ
+Result      turnikɔtərɛ
+
+----
+
+Word        délirerait
+Translation /deliʁəʁɛ/
+Epitran     delirɛrɛ
+Result      delirərɛ
+
+----
+
+Word        bagarraient
+Translation /bagaʁɛ/
+Epitran     baɡarraj
+Result      baɡarraj
+
+----
+
+Word        mâchât
+Translation /maʃa/
+Epitran     mɑʃɑ
+Result      mɑʃɑ
+
+----
+
+Word        décomplexent
+Translation /dekɔ̃plɛks/
+Epitran     dekɔ̃plɛ
+Result      dekɔ̃plɛ
+
+----
+
+Word        rempli
+Translation /ʁɑ̃pli/
+Epitran     râpli
+Result      rẫpli
+
+----
+
+Word        abreuvait
+Translation /abʁœvɛ/
+Epitran     abrœvɛ
+Result      abrœvɛ
+
+----
+
+Word        acidités
+Translation /asidite/
+Epitran     azidite
+Result      azidite
+
+----
+
+Word        bouclent
+Translation /bukl/
+Epitran     bukl
+Result      bukl
+
+----
+
+Word        grognait
+Translation /gʁɔɲɛ/
+Epitran     ɡrɔɲɛ
+Result      ɡrɔɲɛ
+
+----
+
+Word        pensionnas
+Translation /pɑ̃sjɔna/
+Epitran     pâsjɔna
+Result      pẫsjɔna
+
+----
+
+Word        quadrillé
+Translation /kadʁije/
+Epitran     kadrije
+Result      kadrije
+
+----
+
+Word        vivez
+Translation /vive/
+Epitran     vivɛz
+Result      vivɛz
+
+----
+
+Word        succombés
+Translation /sykɔ̃be/
+Epitran     sykkɔmbe
+Result      sykkɔmbe
+
+----
+
+Word        aménager
+Translation /amenaʒe/
+Epitran     amenaʒe
+Result      amenaʒe
+
+----
+
+Word        subjuguerait
+Translation /sybʒygəʁɛ/
+Epitran     sybʒyɡɥɛrɛ
+Result      sybʒyɡɥərɛ
+
+----
+
+Word        instituée
+Translation /ɛ̃stitɥe/
+Epitran     ɛ̃stjtɥe
+Result      ɛ̃stjtɥe
+
+----
+
+Word        redémarrée
+Translation /ʁədemaʁe/
+Epitran     rədemarre
+Result      rədemarre
+
+----
+
+Word        éliminassions
+Translation /eliminasjɔ̃/
+Epitran     eliminasjɔn
+Result      eliminasjɔn
+
+----
+
+Word        adressons
+Translation /adʁɛsɔ̃/
+Epitran     adrɛsɔn
+Result      adrɛsɔn
+
+----
+
+Word        refilassions
+Translation /ʁəfilasjɔ̃/
+Epitran     rəfilasjɔn
+Result      rəfilasjɔn
+
+----
+
+Word        forages
+Translation /fɔʁaʒ/
+Epitran     fɔraʒ
+Result      fɔraʒ
+
+----
+
+Word        consciente
+Translation /kɔ̃sjɑ̃t/
+Epitran     kɔ̃skjɛn
+Result      kɔ̃skjɛn
+
+----
+
+Word        cartonneuse
+Translation /kaʁtɔnøz/
+Epitran     kartɔnœz
+Result      kartɔnœz
+
+----
+
+Word        extrémisme
+Translation /ɛkstʁemism/
+Epitran     ɛkstremism
+Result      ɛkstremism
+
+----
+
+Word        redescende
+Translation /ʁədesɑ̃d/
+Epitran     rədɛzɛn
+Result      rədəzɛn
+
+----
+
+Word        réservé
+Translation /ʁezɛʁve/
+Epitran     rezɛrve
+Result      rezɛrve
+
+----
+
+Word        ensachassiez
+Translation /ɑ̃saʃasje/
+Epitran     ɛnsaʃasjɛz
+Result      ɛnsaʃasjɛz
+
+----
+
+Word        handicaperai
+Translation /ʼɑ̃dikapəʁɛ/
+Epitran     andikapɛrɛ
+Result      andikapərɛ
+
+----
+
+Word        nacreraient
+Translation /nakʁəʁɛ/
+Epitran     nakrɛraj
+Result      nakrəraj
+
+----
+
+Word        existaient
+Translation /ɛgzistɛ/
+Epitran     ɛksistaj
+Result      ɛksistaj
+
+----

@@ -1,0 +1,697 @@
+Word        Friedenspfeifen
+Translation /ˈfɾiːdɛnzpfaefən/
+Epitran     friːdənsp͡faiefən
+Result      friːdənsp͡faiefən
+
+----
+
+Word        vorgesagten
+Translation /foːɐ̯gəˈzaktən/
+Epitran     foəɡeːsaktən
+Result      foəɡeːsaktən
+
+----
+
+Word        einklammerndes
+Translation /ˈʔaenˌklammɛɾndəs/
+Epitran     aiŋklameəndes
+Result      aiŋklameəndes
+
+----
+
+Word        allfälliges
+Translation /ˈʔallfɛllɪgəs/
+Epitran     alfeliːɡes
+Result      alfeliːɡes
+
+----
+
+Word        türmten
+Translation /ˈtʏɾmtən/
+Epitran     tyəmtən
+Result      tyəmtən
+
+----
+
+Word        verschreibst
+Translation /fɛːɐ̯ˈʃɾaepst/
+Epitran     feəʃraibst
+Result      feəʃraibst
+
+----
+
+Word        starrsinnigen
+Translation /ˈʃtaɾɾzɪnnɪgən/
+Epitran     ʃtaərsiniːɡən
+Result      ʃtarsiniːɡən
+
+----
+
+Word        Entmutigungen
+Translation /ʔɛntˈmuːtɪgʊŋən/
+Epitran     əntmuːtieɡuŋən
+Result      əntmuːtieɡuŋən
+
+----
+
+Word        salzigeren
+Translation /ˈzaltsɪgɐ̯ən/
+Epitran     zalt͡siːɡeːrən
+Result      zalt͡siːɡeːrən
+
+----
+
+Word        vorwegnahmst
+Translation /foːɐ̯ˈvɛkˌnɑmst/
+Epitran     foəveknaːmst
+Result      foəveknaːmst
+
+----
+
+Word        luftdichte
+Translation /ˈlʊftˌdɪçtə/
+Epitran     luftdixtə
+Result      luftdixtə
+
+----
+
+Word        einzusparenden
+Translation /ʔaenˈtsuːˌʃpɑːɾɛndən/
+Epitran     aint͡suspaːrəndən
+Result      aint͡suspaːrəndən
+
+----
+
+Word        ausdrehender
+Translation /ˈʔaosˌdɾeːɛndɐ̯/
+Epitran     austreːhəndə
+Result      austreːhəndə
+
+----
+
+Word        eingeht
+Translation /ʔaengəˈht/
+Epitran     aiŋeːt
+Result      aiŋeːt
+
+----
+
+Word        ansprecht
+Translation /ˈʔanˌʃpɾɛçt/
+Epitran     ansprext
+Result      ansprext
+
+----
+
+Word        fünfjährigen
+Translation /ˈfʏnfjɛɾɪgən/
+Epitran     fynfjeːriːɡən
+Result      fynfjeːriːɡən
+
+----
+
+Word        Parlamentsbeschlüssen
+Translation /ˈpaɾlɑmɛntsbɛʃlʏszən/
+Epitran     paəlaːməntsbeʃlysən
+Result      paːlaməntsbeʃlysən
+
+----
+
+Word        unschmackhafteren
+Translation /ˈʔʊnˌʃmakhaftɐ̯ən/
+Epitran     unʃmakhafteːrən
+Result      unʃmakhafteːrən
+
+----
+
+Word        Erhalts
+Translation /ʔɛːɐˈhalts/
+Epitran     eəhalts
+Result      ərhalts
+
+----
+
+Word        Schadensersatzes
+Translation /ˈʃɑːdɛnzɛɾzatsəs/
+Epitran     ʃaːdənseəsaːt͡ses
+Result      ʃaːdənseəsaːt͡ses
+
+----
+
+Word        ungewöhnliche
+Translation /ʔʊngəˈvønlɪçə/
+Epitran     uŋeːvøːnlixə
+Result      uŋeːvøːnlixə
+
+----
+
+Word        abholt
+Translation /ˈʔapˌhɔlt/
+Epitran     afolt
+Result      afolt
+
+----
+
+Word        waghalsigeres
+Translation /ˈvakalzɪgɐ̯əs/
+Epitran     vakhalsiːɡeːres
+Result      vakhalsiːɡeːres
+
+----
+
+Word        unbeschäftigteres
+Translation /ʔʊnbəˈʃɛftɪktɐ̯əs/
+Epitran     unbeːʃeftikteːres
+Result      unbeːʃeftikteːres
+
+----
+
+Word        setzende
+Translation /ˈzɛtsɛndə/
+Epitran     zeːt͡səndə
+Result      zeːt͡səndə
+
+----
+
+Word        anschwindeln
+Translation /ˈʔanˌʃvɪndɛln/
+Epitran     anʃvindeln
+Result      anʃvindeln
+
+----
+
+Word        loslassende
+Translation /ˈlɔslaszɛndə/
+Epitran     loslasəndə
+Result      loslasəndə
+
+----
+
+Word        abzuwendenden
+Translation /ʔapˈtsuːˌvɛndɛndən/
+Epitran     apt͡suːvəndəndən
+Result      apt͡suːvəndəndən
+
+----
+
+Word        böserer
+Translation /ˈbøːzɐ̯ɐ̯/
+Epitran     bøːsərə
+Result      bøːsərə
+
+----
+
+Word        welterfahrene
+Translation /ˈvɛltɛɾfɑɾənə/
+Epitran     velteəfaːrənə
+Result      velteəfaːrənə
+
+----
+
+Word        Verbots
+Translation /fɛːɐ̯ˈbɔts/
+Epitran     feəbots
+Result      feəbots
+
+----
+
+Word        verstehend
+Translation /fɛːɐ̯ˈʃteːɛnt/
+Epitran     feəsteːhənt
+Result      feəsteːhənt
+
+----
+
+Word        unverzichtbares
+Translation /ʔʊnfɛːɐ̯tsɪçtˈbaɽəs/
+Epitran     unfeət͡sixtbaːres
+Result      unfeət͡sixtbaːres
+
+----
+
+Word        durchgebissenem
+Translation /ˈdʊɾtsgebɪszənəm/
+Epitran     duəxɡeːbiseːnem
+Result      duəxɡeːbiseːnem
+
+----
+
+Word        abgebrachte
+Translation /ʔapgəˈbraxtə/
+Epitran     apɡepraxtə
+Result      apɡepraxtə
+
+----
+
+Word        Stichpunkt
+Translation /ˈʃtɪçpʊŋkt/
+Epitran     ʃtixpuŋkt
+Result      stixpuŋkt
+
+----
+
+Word        Update
+Translation /ˈʔʊpdɑtə/
+Epitran     updatə
+Result      updatə
+
+----
+
+Word        Schirmherrin
+Translation /ˈʃɪɾmɛɾɾɪn/
+Epitran     ʃiəmheərin
+Result      ʃiəmheərin
+
+----
+
+Word        hereinführt
+Translation /hɛˈɾaenˌfyɾt/
+Epitran     heːrainfyːət
+Result      heːrainfyːət
+
+----
+
+Word        anzunäherndem
+Translation /ʔanˈtsuːˌnɛːɛɾndəm/
+Epitran     ant͡suːneːeəndem
+Result      ant͡suːneːeəndem
+
+----
+
+Word        reinwaschendes
+Translation /ˈɾaenvaʃɛndəs/
+Epitran     rainvaːʃəndes
+Result      rainvaːʃəndes
+
+----
+
+Word        aufheizende
+Translation /ˈʔaofˌhaetsɛndə/
+Epitran     aufhaiet͡səndə
+Result      aufhaiet͡səndə
+
+----
+
+Word        wegjagend
+Translation /ˈvɛkˌjɑːgɛnt/
+Epitran     vekjaːɡənt
+Result      vekjaːɡənt
+
+----
+
+Word        Ärztinnen
+Translation /ˈʔɛɾtstɪnnən/
+Epitran     eət͡stinən
+Result      ert͡stinən
+
+----
+
+Word        hereinragen
+Translation /hɛˈɾaenˌɾɑːgən/
+Epitran     heːrainraːɡən
+Result      heːrainraːɡən
+
+----
+
+Word        überwerfende
+Translation /ˈʔyːbɛɾvɛɾfɛndə/
+Epitran     yːbeəveəfəndə
+Result      yːbeəveəfəndə
+
+----
+
+Word        Töpfer
+Translation /ˈtœpfər/
+Epitran     tøp͡fə
+Result      tøp͡fə
+
+----
+
+Word        Furcht
+Translation /fʊʁçt/
+Epitran     fuəxt
+Result      fuəxt
+
+----
+
+Word        zimperlicheren
+Translation /ˈtsɪmpɐ̯lɪçɐ̯ən/
+Epitran     t͡simpeəliːxeːrən
+Result      t͡simpeəliːxeːrən
+
+----
+
+Word        vergönnst
+Translation /fɛːɐ̯ˈgœnnst/
+Epitran     feəɡønst
+Result      feəɡønst
+
+----
+
+Word        Höchstgeschwindigkeit
+Translation /hœçstgɛʃvɪndɪkˈkəiːt/
+Epitran     høkstɡeʃvindikkait
+Result      høkstɡeʃvindikkait
+
+----
+
+Word        Kamelstuten
+Translation /ˈkɑːmɛlstutən/
+Epitran     kaːmelstuːtən
+Result      kaːmelstuːtən
+
+----
+
+Word        verfassungswidrigeren
+Translation /fɛːɐ̯ˈfaszʊŋsvɪdɾɪgɐ̯ən/
+Epitran     feəfasuŋsvitriːɡeːrən
+Result      feəfasuŋsvitriːɡeːrən
+
+----
+
+Word        Formstahl
+Translation /ˈfɔɾmstɑl/
+Epitran     foəmstaːl
+Result      foəmstaːl
+
+----
+
+Word        unerreichbar
+Translation /ʔʊnʔɛːɐɾaeçˈbaɽ/
+Epitran     uneəraixbaə
+Result      uneəraixbaː
+
+----
+
+Word        westdeutschen
+Translation /ˈvɛstˌdɔøʧən/
+Epitran     vestdoyt͡ʃən
+Result      vestdoyt͡ʃən
+
+----
+
+Word        stenographischer
+Translation /ˈʃteːnɔgɾafɪʃɐ̯/
+Epitran     ʃteːnokrafiʃə
+Result      ʃteːnokrafiʃə
+
+----
+
+Word        berüchtigtestes
+Translation /bəˈɾʏçtɪktɛstəs/
+Epitran     beːryxtiktestes
+Result      beːryxtiktestes
+
+----
+
+Word        versiegelt
+Translation /fɛːɐ̯ˈziːgɛlt/
+Epitran     feəsiːɡelt
+Result      feəsiːɡelt
+
+----
+
+Word        Findelhaus
+Translation /ˈfɪndɛlaos/
+Epitran     findelhaus
+Result      findelhaus
+
+----
+
+Word        beschaulichsten
+Translation /bəˈʃaolɪçstən/
+Epitran     beːʃauhlikstən
+Result      beːʃauhlikstən
+
+----
+
+Word        frecher
+Translation /ˈfɾɛçɐ̯/
+Epitran     frexə
+Result      frexə
+
+----
+
+Word        Autorenrecht
+Translation /ˈaotoɾɛnɾɛçt/
+Epitran     auhtoːrənrext
+Result      auhtoːrənrext
+
+----
+
+Word        Arbeitsprozess
+Translation /ˈʔaɾbaetspɾotsɛss/
+Epitran     aəbaitsproːt͡ses
+Result      arbaitsproːt͡ses
+
+----
+
+Word        verzagend
+Translation /fɛːɐ̯ˈtsɑːgɛnt/
+Epitran     feət͡saːɡənt
+Result      feət͡saːɡənt
+
+----
+
+Word        hinführst
+Translation /ˈhɪnˌfyɾst/
+Epitran     hinfyːəst
+Result      hinfyːəst
+
+----
+
+Word        ausrückte
+Translation /ˈʔaosˌɾʏktə/
+Epitran     ausryktə
+Result      ausryktə
+
+----
+
+Word        hineinzulesende
+Translation /hɪˈnaenˈtsuːˌleːzɛndə/
+Epitran     hiːnaint͡suːleːsəndə
+Result      hiːnaint͡suːleːsəndə
+
+----
+
+Word        Goldkäufen
+Translation /ˈgɔltkɔøfən/
+Epitran     ɡoltkoyhfən
+Result      ɡoltkoyhfən
+
+----
+
+Word        teilnahmsloseres
+Translation /ˈtaelnɑmsloːsɐ̯əs/
+Epitran     tailnaːmsloːseːres
+Result      tailnaːmsloːseːres
+
+----
+
+Word        Umschiffungen
+Translation /ˈʔʊmˌʃɪffʊŋən/
+Epitran     umʃifuŋən
+Result      umʃifuŋən
+
+----
+
+Word        Bergarbeiterschaft
+Translation /bəˈɾgaɾbaetɛɾstshaft/
+Epitran     beəɡaəbaieteəʃaft
+Result      beəɡaːbaieteəʃaft
+
+----
+
+Word        Gesamtleistungen
+Translation /gəzamtˈləɪstʊŋən/
+Epitran     ɡeːsamtlaistuŋən
+Result      ɡeːsamtlaistuŋən
+
+----
+
+Word        stechende
+Translation /ˈʃtɛçɛndə/
+Epitran     ʃteːxəndə
+Result      ʃteːxəndə
+
+----
+
+Word        Terme
+Translation /ˈtɛɾmə/
+Epitran     teəmə
+Result      teəmə
+
+----
+
+Word        aufgelistetes
+Translation /ʔaofgəˈlɪstətəs/
+Epitran     aufɡeːlisteːtes
+Result      aufɡeːlisteːtes
+
+----
+
+Word        zustatten
+Translation /ˈtsuːˌʃtatən/
+Epitran     t͡sustatən
+Result      t͡sustatən
+
+----
+
+Word        unterschreite
+Translation /ˈʔʊntɛɾstsˈɾəiːtə/
+Epitran     unteəʃraitə
+Result      unteəʃraitə
+
+----
+
+Word        zurückzuzahlendes
+Translation /ˈtsuːˌɾʏktsutsɑlɛndəs/
+Epitran     t͡suːrykt͡suːt͡saːləndes
+Result      t͡suːrykt͡suːt͡saːləndes
+
+----
+
+Word        Betriebsferien
+Translation /bətɾiːpsˈfɐ̯iːən/
+Epitran     betriːbsfeːriːn
+Result      betriːbsfeːriːn
+
+----
+
+Word        Artikulation
+Translation /ʔaɾtikulɑˈtsĭoːn/
+Epitran     aətiekuːlaːt͡sion
+Result      artiekuːlaːt͡sion
+
+----
+
+Word        schieferer
+Translation /ˈʃiːfɐ̯ɐ̯/
+Epitran     ʃiːfərə
+Result      ʃiːfərə
+
+----
+
+Word        Spezifikationssprache
+Translation /ˈʃpeːtsifikɑtsĭonsspɾaxə/
+Epitran     ʃpeːt͡siːfikaːt͡sionspraxə
+Result      speːt͡siːfikaːt͡sionspraxə
+
+----
+
+Word        Indices
+Translation /ˈʔɪnditsəs/
+Epitran     indiːkes
+Result      indiːkes
+
+----
+
+Word        Falkenjagd
+Translation /ˈfalkɛnjakt/
+Epitran     falkənjaɡt
+Result      falkənjaɡt
+
+----
+
+Word        verschraubendes
+Translation /fɛːɐ̯ˈʃɾaobɛndəs/
+Epitran     feəʃrauhbəndes
+Result      feəʃrauhbəndes
+
+----
+
+Word        mitgehörtes
+Translation /mɪtgəˈhœɾtəs/
+Epitran     mitɡeːhøətes
+Result      mitɡeːhøətes
+
+----
+
+Word        unentrinnbaren
+Translation /ʔʊnʔɛntɾɪnnˈbaɽən/
+Epitran     unəntrinbaːrən
+Result      unəntrinbaːrən
+
+----
+
+Word        nichtproportionalen
+Translation /nɪçtpɾopɔɾˈtsĭoːnalən/
+Epitran     nixtproːpoət͡sioːnaːlən
+Result      nixtproːpoət͡sioːnaːlən
+
+----
+
+Word        Ehrensachen
+Translation /ˈʔeɾɛnzaxən/
+Epitran     eːrənsaːxən
+Result      eːrənsaːxən
+
+----
+
+Word        Ausbildungsteile
+Translation /ˈʔaosbɪldʊŋstəiːlə/
+Epitran     ausbilduŋstailə
+Result      ausbilduŋstailə
+
+----
+
+Word        gewehtes
+Translation /gəˈvetəs/
+Epitran     ɡeːveːtes
+Result      ɡeːveːtes
+
+----
+
+Word        dazulernend
+Translation /daˈtsuːˌlɛɾnɛnt/
+Epitran     daːt͡suːleənənt
+Result      daːt͡suːleənənt
+
+----
+
+Word        exponiertester
+Translation /ˈʔɛksponiːɾtɛstɐ̯/
+Epitran     ekspoːniːətestə
+Result      ekspoːniːətestə
+
+----
+
+Word        anwinkle
+Translation /ˈʔanˌvɪŋklə/
+Epitran     anviŋklə
+Result      anviŋklə
+
+----
+
+Word        Ausschusses
+Translation /ˈʔaosˌʃʊszəs/
+Epitran     ausxuses
+Result      ausxuses
+
+----
+
+Word        abgreife
+Translation /ˈʔapˌgɾaefə/
+Epitran     abkraifə
+Result      abkraifə
+
+----
+
+Word        ausmessendes
+Translation /ˈʔaosˌmɛszɛndəs/
+Epitran     ausmesəndes
+Result      ausmesəndes
+
+----
+
+Word        eintönig
+Translation /ˈʔaenˌtøːnɪç/
+Epitran     aintøːnik
+Result      aintøːnik
+
+----
+
+Word        strukturiertet
+Translation /ʃtɾʊkˈtuːɐiːɾtət/
+Epitran     ʃtruktuːriːətet
+Result      ʃtruktuːriːətet

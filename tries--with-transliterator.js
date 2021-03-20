@@ -1,9 +1,13 @@
 const fs = require('fs');
 
 async function loadFile(file) {
-    let response = fs.readFileSync(`./${file}`, 'UTF-8');
-    if(!response) throw new Error(`Failed to load ${file}`);
-    return response;
+    try {
+        let response = fs.readFileSync(`./${file}`, 'UTF-8');
+        if(!response) throw new Error(`Failed to load ${file}`);
+        return response;
+    } catch(e) {
+        return null
+    }
 }
 
 class CharNode {
@@ -42,13 +46,13 @@ class CharNode {
 }
 
 class Trie {
-    _currentDictionary = null;
+    _currentLanguageCode = null;
     _loadedDictionaries = {};
 
-    constructor() {}
+    constructor() { }
 
     get firstCharsLevel() {
-        return this._loadedDictionaries[this._currentDictionary];
+        return this._loadedDictionaries[this._currentLanguageCode];
     }
 
     addWord(word, phonetic) {
@@ -200,11 +204,12 @@ class TrieStepperAbstract extends Trie {
         this._foundChars = false;
     }
 
-    isLetter(str) {return /\p{L}/u.test(str);}
+    isLetter(str) { return /\p{L}/u.test(str); }
 }
 
 class TrieWordStepper extends TrieStepperAbstract {
     _orthographyStepper = null;
+    _currentWord = '';
 
     addOrthographyStepper(orthographyStepper) {
         this._orthographyStepper = orthographyStepper;
@@ -231,20 +236,20 @@ class TrieWordStepper extends TrieStepperAbstract {
                 this._lastAddedCursor = this._cursor;
                 this.reset();
             } else {
-                let currentWord = '';
                 for(let i = this._lastAddedCursor; i <= this._cursor; i++) {
                     const char = this._text[i];
                     if(!this.isLetter(char)) {
                         this._result.push(char);
                         continue;
                     }
-                    currentWord += char;
+                    this._currentWord += char;
                     if(!this.isLetter(this._text[i + 1])) {
                         if(this._orthographyStepper) {
-                            currentWord = this._orthographyStepper.translateText(currentWord);
+                            this._currentWord = this._orthographyStepper.translateText(this._currentWord);
+                            this._orthographyStepper.clear();
                         }
-                        this._result.push('/' + currentWord + '/');
-                        currentWord = '';
+                        this._result.push('#' + this._currentWord + '#');
+                        this._currentWord = '';
                     }
                 }
                 this._lastAddedCursor = this._cursor + 1;
@@ -255,7 +260,7 @@ class TrieWordStepper extends TrieStepperAbstract {
     }
 
     async loadDictionary(dictionary) {
-        this._currentDictionary = dictionary;
+        this._currentLanguageCode = dictionary;
         if(this.hasDictionary(dictionary)) return;
         this._loadedDictionaries[dictionary] = {};
         const response = await loadFile(`${dictionary}.txt`);
@@ -269,44 +274,69 @@ class TrieWordStepper extends TrieStepperAbstract {
 }
 
 class TrieOrthographyStepper extends TrieStepperAbstract {
-    _ruleProcessor;
+    _rulePreprocessors = {};
+    _rulePostprocessors = {};
 
-    constructor(ruleProcessor) {
+    constructor() {
         super();
-        this._ruleProcessor = ruleProcessor;
+    }
+
+    get result() {
+        let result = this._result.map(r =>
+            r instanceof CharNode
+                ? [...r.phonetics][0]
+                : r,
+        ).join('');
+        if(this._currentLanguageCode in this._rulePreprocessors) {
+            result = this._rulePostprocessors[this._currentLanguageCode].process(result);
+        }
+        return result
+    }
+
+    addRulePreprocessorForLanguage(ruleProcessor, languageCode) {
+        ruleProcessor.loadRuleFile(languageCode, 'preprocessor')
+        this._rulePreprocessors[languageCode] = ruleProcessor;
+    }
+
+    addRulePostprocessorForLanguage(ruleProcessor, languageCode) {
+        ruleProcessor.loadRuleFile(languageCode, 'postprocessor')
+        this._rulePreprocessors[languageCode] = ruleProcessor;
     }
 
     run() {
         if(typeof this._text !== 'string') throw new Error('Set some text before running');
-        this._text = this._ruleProcessor.process(this._text);
+        if(this._currentLanguageCode in this._rulePreprocessors) {
+            this._text = this._rulePreprocessors[this._currentLanguageCode].process(this._text);
+        }
         this._currentLevel = this.firstCharsLevel;
-        while(this._cursor < this._text.length + 1) {
+        while(this._cursor < this._text.length) {
             const char = this._text[this._cursor];
             if(char in this._currentLevel) {
                 this._currentNode = this._currentLevel[char];
+                this._currentLevel = this._currentNode.nextCharsLevel;
                 if(this._currentNode.word) {
                     this._lastNodeWithResult = this._currentNode;
                     this._lastResultCursor = this._cursor;
                 }
-                this._currentLevel = this._currentNode.nextCharsLevel;
+                this._cursor++;
             } else if(this._lastNodeWithResult) {
                 this._result.push(this._lastNodeWithResult);
+                this._cursor = this._lastResultCursor + 1;
                 this._lastAddedCursor = this._cursor;
-                this._cursor = this._lastResultCursor;
                 this.reset();
             } else {
-                for(let i = this._lastAddedCursor; i <= this._cursor; i++) {
+                for(let i = this._lastAddedCursor || 0; i <= this._cursor; i++) {
                     this._result.push(this._text[i]);
                 }
-                this._lastAddedCursor = this._cursor;
+                this._lastAddedCursor = this._cursor + 1;
+                this._cursor++;
                 this.reset();
             }
-            this._cursor++;
         }
     }
 
     async loadDictionary(dictionary) {
-        this._currentDictionary = dictionary;
+        this._currentLanguageCode = dictionary;
         if(this.hasDictionary(dictionary)) return;
         this._loadedDictionaries[dictionary] = {};
         const response = await loadFile(`${dictionary}.txt`);
@@ -320,10 +350,10 @@ class TrieOrthographyStepper extends TrieStepperAbstract {
 }
 
 class Rule {
-    _toReplace;
-    _replacement;
-    _prefix;
-    _suffix;
+    _toReplace = '';
+    _replacement = '';
+    _prefix = null;
+    _suffix = null;
 
     constructor(rule, charGroups) {
         const [strings, match] = rule.split(/\s+\/\s+/u);
@@ -339,18 +369,6 @@ class Rule {
         this._replacement = this._replacement.replace(/0/u, '');
     }
 
-    get toReplace() {
-        return this._toReplace;
-    }
-
-    get replacement() {
-        return this._replacement;
-    }
-
-    get prefix() {
-        return this._prefix;
-    }
-
     get regex() {
         return new RegExp(`(${this._prefix})(${this._toReplace})(${this._suffix})`, 'ug');
     }
@@ -363,10 +381,11 @@ class Rule {
 class RuleProcessor {
     _rules = [];
 
-    async loadRuleFile(languageCode) {
+    async loadRuleFile(languageCode, type) {
+        const response = await loadFile(`rules/${type}s/${languageCode}.txt`);
+        if(!response) return;
         const charGroupRegex = /^::\p{L}+?::\s+?=\s+?[\p{L}|]+/gmu;
         const ruleRegex = /^[\p{L}\[\]|]+?\s+->\s+[\p{L}\p{M}\[\]<>|0]+\s+\/\s+.*?$/gmu;
-        const response = await loadFile(`rules/preprocessors/${languageCode}.txt`);
         const charGroups = response.match(charGroupRegex).reduce((obj, m) => {
             const [key, value] = m.split(/\s+=\s+/);
             return {...obj, [key]: value};
@@ -376,52 +395,52 @@ class RuleProcessor {
     }
 
     process(word) {
+        if(!this._rules.length) return word;
         return this._rules.reduce((w, r) => r.apply(w), word);
     }
 }
 
 const trieWord = new TrieWordStepper();
-const ruleProcessor = new RuleProcessor();
-const trieOrthographyStepper = new TrieOrthographyStepper(ruleProcessor);
+const trieOrthography = new TrieOrthographyStepper();
 
 async function translate(language, text) {
     await trieWord.loadDictionary(`translations/${language}`);
-    await trieOrthographyStepper.loadDictionary(`maps/${language}`);
-    trieWord.addOrthographyStepper(trieOrthographyStepper);
+    await trieOrthography.loadDictionary(`maps/${language}`);
+    const ruleProcessor = new RuleProcessor();
+    trieOrthography.addRulePreprocessorForLanguage(ruleProcessor, language);
+    trieOrthography.addRulePostprocessorForLanguage(ruleProcessor, language);
+    trieWord.addOrthographyStepper(trieOrthography);
     const result = trieWord.translateText(text);
     trieWord.clear();
     return result;
 }
 
+async function logTranslation(languageCode, title, text) {
+    const result = await translate(languageCode, text);
+    const textLines = text.split(/\n/);
+    const resultLines = result.split('\n');
+    console.log(`${languageCode}: ${title}`);
+    console.log('----\n');
+    for(let i = 0; i < Math.max(textLines.length, resultLines.length); i++) {
+        if(i < textLines.length) console.log(textLines[i]);
+        if(i < resultLines.length) console.log(resultLines[i]);
+        console.log('');
+
+    }
+    console.log('----\n\n');
+}
+
+const examples = [
+    {languageCode: 'de', title: 'Erlkönig', text: 'Wer reitet so spät durch Nacht und Wind?\nEs ist der Vater mit seinem Kind:\nEr hat den Knaben wohl in dem Arm,\nEr fasst ihn sicher, er hält ihn warm.\n„Mein Sohn, was birgst du so bang dein Gesicht?“\n„Siehst, Vater, du den Erlkönig nicht?\nDen Erlenkönig mit Kron’ und Schweif?“\n„Mein Sohn, es ist ein Nebelstreif.“\n„Du liebes Kind, komm, geh mit mir!\nGar schöne Spiele spiel’ ich mit dir;\nManch’ bunte Blumen sind an dem Strand,\nMeine Mutter hat manch gülden Gewand.“\n„Mein Vater, mein Vater, und hörest du nicht,\nWas Erlenkönig mir leise verspricht?“\n„Sei ruhig, bleibe ruhig, mein Kind:\nIn dürren Blättern säuselt der Wind.“\n„Willst, feiner Knabe, du mit mir gehn?\nMeine Töchter sollen dich warten schön;\nMeine Töchter führen den nächtlichen Rein\nUnd wiegen und tanzen und singen dich ein.“\n„Mein Vater, mein Vater, und siehst du nicht dort\nErlkönigs Töchter am düstern Ort?“\n„Mein Sohn, mein Sohn, ich seh es genau:\nEs scheinen die alten Weiden so grau.“\n„Ich liebe dich, mich reizt deine schöne Gestalt;\nUnd bist du nicht willig, so brauch ich Gewalt.“\n„Mein Vater, mein Vater, jetzt fasst er mich an!\nErlkönig hat mir ein Leids getan!“\nDem Vater grausets, er reitet geschwind,\nEr hält in Armen das ächzende Kind,\nErreicht den Hof mit Mühe und Not:\nIn seinen Armen das Kind war tot.'},
+    {languageCode: 'de', title: 'Widmung', text: 'Du meine Seele, du mein Herz,\nDu meine Wonn’, o du mein Schmerz,\nDu meine Welt, in der ich lebe,\nMein Himmel du, darein ich schwebe,\nO du mein Grab, in das hinab\nIch ewig meinen Kummer gab!\nDu bist die Ruh, du bist der Frieden,\nDu bist vom Himmel mir beschieden.\nDass du mich liebst, macht mich mir wert,\nDein Blick hat mich vor mir verklärt,\nDu hebst mich liebend über mich,\nMein guter Geist, mein bess’res Ich!'},
+    {languageCode: 'fr_FR', title: 'Le corbeau et le renard', text: 'Maître Corbeau, sur un arbre perché,\nTenait en son bec un fromage.\nMaître Renard, par l\'odeur alléché,\nLui tint à peu près ce langage:\nHé! Bonjour, Monsieur du Corbeau.\nQue vous êtes joli! Que vous me semblez beau!\nSans mentir, si votre ramage\nSe rapporte à votre plumage,\nVous êtes le phénix des hôtes de ces bois.\nA ces mots le corbeau ne se sent pas de joie;\nEt, pour montrer sa belle voix,\nIl ouvre un large bec, laisse tomber sa proie.\nLe renard s\'en saisit, et dit: Mon bon monsieur,\nApprenez que tout flatteur\nVit aux dépens de celui qui l\'écoute:\nCette leçon vaut bien un fromage, sans doute.\nLe corbeau, honteux et confus,\nJura, mais un peu tard, qu\'on ne l\'y prendrait plus.'},
+    {languageCode: 'fr_FR', title: 'L’Heure exquise', text: 'La lune blanche\nLuit dans les bois;\nDe chaque branche\nPart une voix\nSous la ramée...\nÔ bien aimée.\nL\'étang reflète,\nProfond miroir,\nLa silhouette\nDu saule noir\nOù le vent pleure...\nRêvons, c\'est l\'heure.\nUn vaste et tendre\nApaisement\nSemble descendre\nDu firmament\nQue l\'astre irise...\nC\'est l\'heure exquise.'}
+];
+
 (async() => {
-    console.log(await translate('fr_FR', `Mon enfant, ma sœur,
-Songe à la douceur
-D’aller là-bas vivre ensemble!
-Aimer à loisir,
-Aimer et mourir
-Au pays qui te ressemble!
-Les soleils mouillés
-De ces ciels brouillés
-Pour mon esprit ont les charmes
-Si mystérieux
-De tes traîtres yeux,
-Brillant à travers leurs larmes.
-Là, tout n’est qu’ordre et beauté,
-Luxe, calme et volupté!
-Vois sur ces canaux
-Dormir ces vaisseaux
-Dont l’humeur est vagabonde;
-C’est pour assouvir
-Ton moindre désir
-Qu’ils viennent du bout du monde.
--Les soleils couchants
-Revêtent les champs,
-Les canaux, la ville entière,
-D’hyacinthe et d’or;
-Le monde s’endort
-Dans une chaude lumière.
-Là, tout n’est qu’ordre et beauté,
-Luxe, calme et volupté!`));
+    for(const {languageCode, title, text} of examples) {
+        await logTranslation(languageCode, title, text);
+    }
 })();
 
 /**

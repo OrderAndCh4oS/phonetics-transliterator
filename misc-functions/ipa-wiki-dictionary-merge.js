@@ -44,8 +44,8 @@ async function combineIpaAndWikiDictionaries() {
     for (let i = 0; i < translations.length; i++) {
         const [languageCode] = translations[i].split('.');
         console.log('~~ ' + languageCode + ' ~~')
-        const tResponse = loadFile('translations/' + translations[i]) || '';
-        const wResponse = loadFile('wikipron-tsv/' + wiki[i]) || '';
+        const tResponse = loadFile('../found-data/translations/' + translations[i]) || '';
+        const wResponse = loadFile('../found-data/wikipron-tsv/' + wiki[i]) || '';
         if(!tResponse) throw new Error('Not found response');
         const tLines = tResponse.split(/\r?\n/).map(line => {
             const [word, translation] = line.split(/\t/)
@@ -54,7 +54,7 @@ async function combineIpaAndWikiDictionaries() {
         const wLines = wResponse.split(/\r?\n/).reduce((arr, line) => {
             let [word, translation] = line.split(/\t/)
             if(!translation) return arr;
-            translation = translation.replace(/\s/g, '');
+            translation = `/${translation.replace(/\s/g, '')}/`;
             arr.push([word, translation, 'wiki']);
             return arr;
         }, []);
@@ -71,7 +71,7 @@ async function combineIpaAndWikiDictionaries() {
         for(const wLine of wLinesToAdd) {
             dataStr += wLine.join('\t') + '\n';
         }
-        const fileName = `./combined-dictionaries/${languageCode}.txt`;
+        const fileName = `../combined-dictionaries/${languageCode}.txt`;
         await writeFileAsync(fileName, dataStr);
         console.log(`~~ fin ${languageCode} ~~`)
     }

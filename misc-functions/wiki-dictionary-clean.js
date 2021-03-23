@@ -26,7 +26,6 @@ async function combineIpaAndWikiDictionaries() {
         'lat_phonetic.tsv',
         'por_po_phonetic.tsv',
         'dan_phonetic.tsv',
-        'dan_phonetic.tsv',
         'hun_phonetic.tsv',
         'yid_phonetic.tsv',
         'gre_phonetic.tsv',
@@ -36,11 +35,11 @@ async function combineIpaAndWikiDictionaries() {
         const [currentFileName] = wiki[i].split('.');
         const languageCode = currentFileName.replace(/_phonetic/, '');
         console.log('~~ ' + languageCode + ' ~~')
-        const wResponse = loadFile('./found-data/wikipron-tsv/' + wiki[i]) || '';
+        const wResponse = loadFile('../found-data/wikipron-tsv/' + wiki[i]) || '';
         const wLines = wResponse.split(/\r?\n/).reduce((arr, line) => {
             let [word, translation] = line.split(/\t/);
             if(!word || !translation) return arr;
-            arr.push([word, translation.replace(/\s/g, ''), 'wiki']);
+            arr.push([word, `/${translation.replace(/\s/g, '')}/`, 'wiki']);
             return arr;
         }, []);
         console.log(wLines.length)
@@ -48,7 +47,7 @@ async function combineIpaAndWikiDictionaries() {
         for(const wLine of wLines) {
             dataStr += wLine.join('\t') + '\n';
         }
-        const fileName = `./combined-dictionaries/${languageCode}.txt`;
+        const fileName = `../combined-dictionaries/${languageCode}.txt`;
         await writeFileAsync(fileName, dataStr);
         console.log(`~~ fin ${languageCode} ~~`)
     }

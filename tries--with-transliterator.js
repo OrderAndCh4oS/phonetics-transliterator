@@ -1,12 +1,12 @@
 const fs = require('fs');
 
-async function loadFile(file) {
+function loadFile(file) {
     try {
         let response = fs.readFileSync(`./${file}`, 'UTF-8');
         if(!response) throw new Error(`Failed to load ${file}`);
         return response;
     } catch(e) {
-        return null
+        return null;
     }
 }
 
@@ -245,7 +245,8 @@ class TrieWordStepper extends TrieStepperAbstract {
                     this._currentWord += char;
                     if(!this.isLetter(this._text[i + 1])) {
                         if(this._orthographyStepper) {
-                            this._currentWord = this._orthographyStepper.translateText(this._currentWord);
+                            this._currentWord = this._orthographyStepper.translateText(
+                                this._currentWord);
                             this._orthographyStepper.clear();
                         }
                         this._result.push('#' + this._currentWord + '#');
@@ -259,11 +260,11 @@ class TrieWordStepper extends TrieStepperAbstract {
         }
     }
 
-    async loadDictionary(dictionary) {
+    loadDictionary(dictionary) {
         this._currentLanguageCode = dictionary;
         if(this.hasDictionary(dictionary)) return;
         this._loadedDictionaries[dictionary] = {};
-        const response = await loadFile(`${dictionary}.txt`);
+        const response = loadFile(`./combined-dictionaries/${dictionary}.txt`);
         const lines = response.split(/\r?\n/);
         for(const line of lines) {
             const [word, phonetic] = line.split(/\t/);
@@ -290,17 +291,17 @@ class TrieOrthographyStepper extends TrieStepperAbstract {
         if(this._currentLanguageCode in this._rulePreprocessors) {
             result = this._rulePostprocessors[this._currentLanguageCode].process(result);
         }
-        return result
+        return result;
     }
 
     addRulePreprocessorForLanguage(ruleProcessor, languageCode) {
-        ruleProcessor.loadRuleFile(languageCode, 'preprocessor')
+        ruleProcessor.loadRuleFile(languageCode, 'preprocessor');
         this._rulePreprocessors[languageCode] = ruleProcessor;
     }
 
     addRulePostprocessorForLanguage(ruleProcessor, languageCode) {
-        ruleProcessor.loadRuleFile(languageCode, 'postprocessor')
-        this._rulePreprocessors[languageCode] = ruleProcessor;
+        ruleProcessor.loadRuleFile(languageCode, 'postprocessor');
+        this._rulePostprocessors[languageCode] = ruleProcessor;
     }
 
     run() {
@@ -335,11 +336,11 @@ class TrieOrthographyStepper extends TrieStepperAbstract {
         }
     }
 
-    async loadDictionary(dictionary) {
+    loadDictionary(dictionary) {
         this._currentLanguageCode = dictionary;
         if(this.hasDictionary(dictionary)) return;
         this._loadedDictionaries[dictionary] = {};
-        const response = await loadFile(`${dictionary}.txt`);
+        const response = loadFile(`./processors/maps/${dictionary}.txt`);
         const lines = response.split(/\r?\n/);
         for(const line of lines) {
             const [word, phonetic] = line.split(/\t/);
@@ -381,17 +382,22 @@ class Rule {
 class RuleProcessor {
     _rules = [];
 
-    async loadRuleFile(languageCode, type) {
-        const response = await loadFile(`processors/rules/${type}s/${languageCode}.txt`);
+    loadRuleFile(languageCode, type) {
+        const response = loadFile(`processors/rules/${type}s/${languageCode}.txt`);
         if(!response) return;
         const charGroupRegex = /^::\p{L}+?::\s+?=\s+?[\p{L}|]+/gmu;
         const ruleRegex = /^[\p{L}\[\]|]+?\s+->\s+[\p{L}\p{M}\[\]<>|0]+\s+\/\s+.*?$/gmu;
-        const charGroups = response.match(charGroupRegex).reduce((obj, m) => {
-            const [key, value] = m.split(/\s+=\s+/);
-            return {...obj, [key]: value};
-        }, {});
+        const foundCharGroups = response.match(charGroupRegex);
+        const charGroups = foundCharGroups
+            ? foundCharGroups.reduce((obj, m) => {
+                const [key, value] = m.split(/\s+=\s+/);
+                return {...obj, [key]: value};
+            }, {})
+            : {};
         const rules = response.match(ruleRegex);
-        this._rules = rules.map(r => new Rule(r, charGroups));
+        this._rules = rules
+            ? rules.map(r => new Rule(r, charGroups))
+            : [];
     }
 
     process(word) {
@@ -403,20 +409,19 @@ class RuleProcessor {
 const trieWord = new TrieWordStepper();
 const trieOrthography = new TrieOrthographyStepper();
 
-async function translate(language, text) {
-    await trieWord.loadDictionary(`combined-dictionaries/${language}`);
-    await trieOrthography.loadDictionary(`processors/maps/${language}`);
-    const ruleProcessor = new RuleProcessor();
-    trieOrthography.addRulePreprocessorForLanguage(ruleProcessor, language);
-    trieOrthography.addRulePostprocessorForLanguage(ruleProcessor, language);
+function translate(language, text) {
+    trieWord.loadDictionary(language);
+    trieOrthography.loadDictionary(language);
+    trieOrthography.addRulePreprocessorForLanguage(new RuleProcessor(), language);
+    trieOrthography.addRulePostprocessorForLanguage(new RuleProcessor(), language);
     trieWord.addOrthographyStepper(trieOrthography);
     const result = trieWord.translateText(text);
     trieWord.clear();
     return result;
 }
 
-async function logTranslation(languageCode, title, text) {
-    const result = await translate(languageCode, text);
+function logTranslation(languageCode, title, text) {
+    const result = translate(languageCode, text);
     const textLines = text.split(/\n/);
     const resultLines = result.split('\n');
     console.log(`${languageCode}: ${title}`);
@@ -431,17 +436,16 @@ async function logTranslation(languageCode, title, text) {
 }
 
 const examples = [
-    {languageCode: 'de', title: 'Erlkönig', text: 'Wer reitet so spät durch Nacht und Wind?\nEs ist der Vater mit seinem Kind:\nEr hat den Knaben wohl in dem Arm,\nEr fasst ihn sicher, er hält ihn warm.\n„Mein Sohn, was birgst du so bang dein Gesicht?“\n„Siehst, Vater, du den Erlkönig nicht?\nDen Erlenkönig mit Kron’ und Schweif?“\n„Mein Sohn, es ist ein Nebelstreif.“\n„Du liebes Kind, komm, geh mit mir!\nGar schöne Spiele spiel’ ich mit dir;\nManch’ bunte Blumen sind an dem Strand,\nMeine Mutter hat manch gülden Gewand.“\n„Mein Vater, mein Vater, und hörest du nicht,\nWas Erlenkönig mir leise verspricht?“\n„Sei ruhig, bleibe ruhig, mein Kind:\nIn dürren Blättern säuselt der Wind.“\n„Willst, feiner Knabe, du mit mir gehn?\nMeine Töchter sollen dich warten schön;\nMeine Töchter führen den nächtlichen Rein\nUnd wiegen und tanzen und singen dich ein.“\n„Mein Vater, mein Vater, und siehst du nicht dort\nErlkönigs Töchter am düstern Ort?“\n„Mein Sohn, mein Sohn, ich seh es genau:\nEs scheinen die alten Weiden so grau.“\n„Ich liebe dich, mich reizt deine schöne Gestalt;\nUnd bist du nicht willig, so brauch ich Gewalt.“\n„Mein Vater, mein Vater, jetzt fasst er mich an!\nErlkönig hat mir ein Leids getan!“\nDem Vater grausets, er reitet geschwind,\nEr hält in Armen das ächzende Kind,\nErreicht den Hof mit Mühe und Not:\nIn seinen Armen das Kind war tot.'},
-    {languageCode: 'de', title: 'Widmung', text: 'Du meine Seele, du mein Herz,\nDu meine Wonn’, o du mein Schmerz,\nDu meine Welt, in der ich lebe,\nMein Himmel du, darein ich schwebe,\nO du mein Grab, in das hinab\nIch ewig meinen Kummer gab!\nDu bist die Ruh, du bist der Frieden,\nDu bist vom Himmel mir beschieden.\nDass du mich liebst, macht mich mir wert,\nDein Blick hat mich vor mir verklärt,\nDu hebst mich liebend über mich,\nMein guter Geist, mein bess’res Ich!'},
-    {languageCode: 'fr_FR', title: 'Le corbeau et le renard', text: 'Maître Corbeau, sur un arbre perché,\nTenait en son bec un fromage.\nMaître Renard, par l\'odeur alléché,\nLui tint à peu près ce langage:\nHé! Bonjour, Monsieur du Corbeau.\nQue vous êtes joli! Que vous me semblez beau!\nSans mentir, si votre ramage\nSe rapporte à votre plumage,\nVous êtes le phénix des hôtes de ces bois.\nA ces mots le corbeau ne se sent pas de joie;\nEt, pour montrer sa belle voix,\nIl ouvre un large bec, laisse tomber sa proie.\nLe renard s\'en saisit, et dit: Mon bon monsieur,\nApprenez que tout flatteur\nVit aux dépens de celui qui l\'écoute:\nCette leçon vaut bien un fromage, sans doute.\nLe corbeau, honteux et confus,\nJura, mais un peu tard, qu\'on ne l\'y prendrait plus.'},
-    {languageCode: 'fr_FR', title: 'L’Heure exquise', text: 'La lune blanche\nLuit dans les bois;\nDe chaque branche\nPart une voix\nSous la ramée...\nÔ bien aimée.\nL\'étang reflète,\nProfond miroir,\nLa silhouette\nDu saule noir\nOù le vent pleure...\nRêvons, c\'est l\'heure.\nUn vaste et tendre\nApaisement\nSemble descendre\nDu firmament\nQue l\'astre irise...\nC\'est l\'heure exquise.'}
+    // {languageCode: 'de', title: 'Erlkönig', text: 'Wer reitet so spät durch Nacht und Wind?\nEs ist der Vater mit seinem Kind:\nEr hat den Knaben wohl in dem Arm,\nEr fasst ihn sicher, er hält ihn warm.\n„Mein Sohn, was birgst du so bang dein Gesicht?“\n„Siehst, Vater, du den Erlkönig nicht?\nDen Erlenkönig mit Kron’ und Schweif?“\n„Mein Sohn, es ist ein Nebelstreif.“\n„Du liebes Kind, komm, geh mit mir!\nGar schöne Spiele spiel’ ich mit dir;\nManch’ bunte Blumen sind an dem Strand,\nMeine Mutter hat manch gülden Gewand.“\n„Mein Vater, mein Vater, und hörest du nicht,\nWas Erlenkönig mir leise verspricht?“\n„Sei ruhig, bleibe ruhig, mein Kind:\nIn dürren Blättern säuselt der Wind.“\n„Willst, feiner Knabe, du mit mir gehn?\nMeine Töchter sollen dich warten schön;\nMeine Töchter führen den nächtlichen Rein\nUnd wiegen und tanzen und singen dich ein.“\n„Mein Vater, mein Vater, und siehst du nicht dort\nErlkönigs Töchter am düstern Ort?“\n„Mein Sohn, mein Sohn, ich seh es genau:\nEs scheinen die alten Weiden so grau.“\n„Ich liebe dich, mich reizt deine schöne Gestalt;\nUnd bist du nicht willig, so brauch ich Gewalt.“\n„Mein Vater, mein Vater, jetzt fasst er mich an!\nErlkönig hat mir ein Leids getan!“\nDem Vater grausets, er reitet geschwind,\nEr hält in Armen das ächzende Kind,\nErreicht den Hof mit Mühe und Not:\nIn seinen Armen das Kind war tot.'},
+    // {languageCode: 'de', title: 'Widmung', text: 'Du meine Seele, du mein Herz,\nDu meine Wonn’, o du mein Schmerz,\nDu meine Welt, in der ich lebe,\nMein Himmel du, darein ich schwebe,\nO du mein Grab, in das hinab\nIch ewig meinen Kummer gab!\nDu bist die Ruh, du bist der Frieden,\nDu bist vom Himmel mir beschieden.\nDass du mich liebst, macht mich mir wert,\nDein Blick hat mich vor mir verklärt,\nDu hebst mich liebend über mich,\nMein guter Geist, mein bess’res Ich!'},
+    // {languageCode: 'fr_FR', title: 'Le corbeau et le renard', text: 'Maître Corbeau, sur un arbre perché,\nTenait en son bec un fromage.\nMaître Renard, par l\'odeur alléché,\nLui tint à peu près ce langage:\nHé! Bonjour, Monsieur du Corbeau.\nQue vous êtes joli! Que vous me semblez beau!\nSans mentir, si votre ramage\nSe rapporte à votre plumage,\nVous êtes le phénix des hôtes de ces bois.\nA ces mots le corbeau ne se sent pas de joie;\nEt, pour montrer sa belle voix,\nIl ouvre un large bec, laisse tomber sa proie.\nLe renard s\'en saisit, et dit: Mon bon monsieur,\nApprenez que tout flatteur\nVit aux dépens de celui qui l\'écoute:\nCette leçon vaut bien un fromage, sans doute.\nLe corbeau, honteux et confus,\nJura, mais un peu tard, qu\'on ne l\'y prendrait plus.'},
+    // {languageCode: 'fr_FR', title: 'L’Heure exquise', text: 'La lune blanche\nLuit dans les bois;\nDe chaque branche\nPart une voix\nSous la ramée...\nÔ bien aimée.\nL\'étang reflète,\nProfond miroir,\nLa silhouette\nDu saule noir\nOù le vent pleure...\nRêvons, c\'est l\'heure.\nUn vaste et tendre\nApaisement\nSemble descendre\nDu firmament\nQue l\'astre irise...\nC\'est l\'heure exquise.'},
+    {languageCode: 'it', title: 'Pensieri notturni di Filli', text: 'Nel dolce dell’oblio\nbenchè riposi\nla mia Filli adorata veglia\ncoi pensier suoi\ne in quella quiete\nAmor non cessa mai\ncon varie forme\nla sua pace turbar\nmentr’ella dorme.\n\nGiacchè il sonno a lei dipinge\nla sembianza del suo bene.\nNella quiete ne pur finge\nd’abbracciar le sue catene.\n\nCosì fida ella vive\nal cuor che adora\ne nell’ombre respira\nla luce di quel sol\nper cui sospira.\n\nHa l’inganno il suo diletto\nse i pensier mossi d’affetto\nstiman ver ciò che non sanno.\nMa se poi si risveglia un tal errore\nil pensier ridice a noi\nha l’inganno il suo dolore.'}
 ];
 
-(async() => {
-    for(const {languageCode, title, text} of examples) {
-        await logTranslation(languageCode, title, text);
-    }
-})();
+for(const {languageCode, title, text} of examples) {
+    logTranslation(languageCode, title, text);
+}
 
 /**
  * Extras for Polly processing

@@ -1,0 +1,1669 @@
+{
+  "ab": {
+    "iso-639-2": [
+      "abk"
+    ],
+    "iso-639-1": "ab",
+    "english": "Abkhazian",
+    "french": "abkhaze",
+    "german": "Abchasisch"
+  },
+  "af": {
+    "iso-639-2": [
+      "afr"
+    ],
+    "iso-639-1": "af",
+    "english": "Afrikaans",
+    "french": "afrikaans",
+    "german": "Afrikaans"
+  },
+  "ak": {
+    "iso-639-2": [
+      "aka"
+    ],
+    "iso-639-1": "ak",
+    "english": "Akan",
+    "french": "akan",
+    "german": "Akan-Sprache"
+  },
+  "sq": {
+    "iso-639-2": [
+      "alb",
+      "sqi"
+    ],
+    "iso-639-1": "sq",
+    "english": "Albanian",
+    "french": "albanais",
+    "german": "Albanisch"
+  },
+  "am": {
+    "iso-639-2": [
+      "amh"
+    ],
+    "iso-639-1": "am",
+    "english": "Amharic",
+    "french": "amharique",
+    "german": "Amharisch"
+  },
+  "ar": {
+    "iso-639-2": [
+      "ara"
+    ],
+    "iso-639-1": "ar",
+    "english": "Arabic",
+    "french": "arabe",
+    "german": "Arabisch"
+  },
+  "an": {
+    "iso-639-2": [
+      "arg"
+    ],
+    "iso-639-1": "an",
+    "english": "Aragonese",
+    "french": "aragonais",
+    "german": "Aragonesisch"
+  },
+  "hy": {
+    "iso-639-2": [
+      "arm",
+      "hye"
+    ],
+    "iso-639-1": "hy",
+    "english": "Armenian",
+    "french": "arménien",
+    "german": "Armenisch"
+  },
+  "as": {
+    "iso-639-2": [
+      "asm"
+    ],
+    "iso-639-1": "as",
+    "english": "Assamese",
+    "french": "assamais",
+    "german": "Assamesisch"
+  },
+  "av": {
+    "iso-639-2": [
+      "ava"
+    ],
+    "iso-639-1": "av",
+    "english": "Avaric",
+    "french": "avar",
+    "german": "Awarisch"
+  },
+  "ae": {
+    "iso-639-2": [
+      "ave"
+    ],
+    "iso-639-1": "ae",
+    "english": "Avestan",
+    "french": "avestique",
+    "german": "Avestisch"
+  },
+  "ay": {
+    "iso-639-2": [
+      "aym"
+    ],
+    "iso-639-1": "ay",
+    "english": "Aymara",
+    "french": "aymara",
+    "german": "Aymará-Sprache"
+  },
+  "az": {
+    "iso-639-2": [
+      "aze"
+    ],
+    "iso-639-1": "az",
+    "english": "Azerbaijani",
+    "french": "azéri",
+    "german": "Aserbeidschanisch"
+  },
+  "ba": {
+    "iso-639-2": [
+      "bak"
+    ],
+    "iso-639-1": "ba",
+    "english": "Bashkir",
+    "french": "bachkir",
+    "german": "Baschkirisch"
+  },
+  "bm": {
+    "iso-639-2": [
+      "bam"
+    ],
+    "iso-639-1": "bm",
+    "english": "Bambara",
+    "french": "bambara",
+    "german": "Bambara-Sprache"
+  },
+  "eu": {
+    "iso-639-2": [
+      "baq",
+      "eus"
+    ],
+    "iso-639-1": "eu",
+    "english": "Basque",
+    "french": "basque",
+    "german": "Baskisch"
+  },
+  "be": {
+    "iso-639-2": [
+      "bel"
+    ],
+    "iso-639-1": "be",
+    "english": "Belarusian",
+    "french": "biélorusse",
+    "german": "Weißrussisch"
+  },
+  "bn": {
+    "iso-639-2": [
+      "ben"
+    ],
+    "iso-639-1": "bn",
+    "english": "Bengali",
+    "french": "bengali",
+    "german": "Bengali"
+  },
+  "bh": {
+    "iso-639-2": [
+      "bih"
+    ],
+    "iso-639-1": "bh",
+    "english": "Bihari languages",
+    "french": "langues biharis",
+    "german": "Bihari (Andere)"
+  },
+  "bi": {
+    "iso-639-2": [
+      "bis"
+    ],
+    "iso-639-1": "bi",
+    "english": "Bislama",
+    "french": "bichlamar",
+    "german": "Beach-la-mar"
+  },
+  "bo": {
+    "iso-639-2": [
+      "tib",
+      "bod"
+    ],
+    "iso-639-1": "bo",
+    "english": "Tibetan",
+    "french": "tibétain",
+    "german": "Tibetisch"
+  },
+  "bs": {
+    "iso-639-2": [
+      "bos"
+    ],
+    "iso-639-1": "bs",
+    "english": "Bosnian",
+    "french": "bosniaque",
+    "german": "Bosnisch"
+  },
+  "br": {
+    "iso-639-2": [
+      "bre"
+    ],
+    "iso-639-1": "br",
+    "english": "Breton",
+    "french": "breton",
+    "german": "Bretonisch"
+  },
+  "bg": {
+    "iso-639-2": [
+      "bul"
+    ],
+    "iso-639-1": "bg",
+    "english": "Bulgarian",
+    "french": "bulgare",
+    "german": "Bulgarisch"
+  },
+  "my": {
+    "iso-639-2": [
+      "bur",
+      "mya"
+    ],
+    "iso-639-1": "my",
+    "english": "Burmese",
+    "french": "birman",
+    "german": "Birmanisch"
+  },
+  "ca": {
+    "iso-639-2": [
+      "cat"
+    ],
+    "iso-639-1": "ca",
+    "english": "Catalan; Valencian",
+    "french": "catalan; valencien",
+    "german": "Katalanisch"
+  },
+  "cs": {
+    "iso-639-2": [
+      "cze",
+      "ces"
+    ],
+    "iso-639-1": "cs",
+    "english": "Czech",
+    "french": "tchèque",
+    "german": "Tschechisch"
+  },
+  "ch": {
+    "iso-639-2": [
+      "cha"
+    ],
+    "iso-639-1": "ch",
+    "english": "Chamorro",
+    "french": "chamorro",
+    "german": "Chamorro-Sprache"
+  },
+  "ce": {
+    "iso-639-2": [
+      "che"
+    ],
+    "iso-639-1": "ce",
+    "english": "Chechen",
+    "french": "tchétchène",
+    "german": "Tschetschenisch"
+  },
+  "zh": {
+    "iso-639-2": [
+      "chi",
+      "zho"
+    ],
+    "iso-639-1": "zh",
+    "english": "Chinese",
+    "french": "chinois",
+    "german": "Chinesisch"
+  },
+  "cu": {
+    "iso-639-2": [
+      "chu"
+    ],
+    "iso-639-1": "cu",
+    "english": "Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic",
+    "french": "slavon d'église; vieux slave; slavon liturgique; vieux bulgare",
+    "german": "Kirchenslawisch"
+  },
+  "cv": {
+    "iso-639-2": [
+      "chv"
+    ],
+    "iso-639-1": "cv",
+    "english": "Chuvash",
+    "french": "tchouvache",
+    "german": "Tschuwaschisch"
+  },
+  "kw": {
+    "iso-639-2": [
+      "cor"
+    ],
+    "iso-639-1": "kw",
+    "english": "Cornish",
+    "french": "cornique",
+    "german": "Kornisch"
+  },
+  "co": {
+    "iso-639-2": [
+      "cos"
+    ],
+    "iso-639-1": "co",
+    "english": "Corsican",
+    "french": "corse",
+    "german": "Korsisch"
+  },
+  "cr": {
+    "iso-639-2": [
+      "cre"
+    ],
+    "iso-639-1": "cr",
+    "english": "Cree",
+    "french": "cree",
+    "german": "Cree-Sprache"
+  },
+  "cy": {
+    "iso-639-2": [
+      "wel",
+      "cym"
+    ],
+    "iso-639-1": "cy",
+    "english": "Welsh",
+    "french": "gallois",
+    "german": "Kymrisch"
+  },
+  "da": {
+    "iso-639-2": [
+      "dan"
+    ],
+    "iso-639-1": "da",
+    "english": "Danish",
+    "french": "danois",
+    "german": "Dänisch"
+  },
+  "de": {
+    "iso-639-2": [
+      "ger",
+      "deu"
+    ],
+    "iso-639-1": "de",
+    "english": "German",
+    "french": "allemand",
+    "german": "Deutsch"
+  },
+  "dv": {
+    "iso-639-2": [
+      "div"
+    ],
+    "iso-639-1": "dv",
+    "english": "Divehi; Dhivehi; Maldivian",
+    "french": "maldivien",
+    "german": "Maledivisch"
+  },
+  "nl": {
+    "iso-639-2": [
+      "dut",
+      "nld"
+    ],
+    "iso-639-1": "nl",
+    "english": "Dutch; Flemish",
+    "french": "néerlandais; flamand",
+    "german": "Niederländisch"
+  },
+  "dz": {
+    "iso-639-2": [
+      "dzo"
+    ],
+    "iso-639-1": "dz",
+    "english": "Dzongkha",
+    "french": "dzongkha",
+    "german": "Dzongkha"
+  },
+  "el": {
+    "iso-639-2": [
+      "gre",
+      "ell"
+    ],
+    "iso-639-1": "el",
+    "english": "Greek, Modern (1453-)",
+    "french": "grec moderne (après 1453)",
+    "german": "Neugriechisch"
+  },
+  "en": {
+    "iso-639-2": [
+      "eng"
+    ],
+    "iso-639-1": "en",
+    "english": "English",
+    "french": "anglais",
+    "german": "Englisch"
+  },
+  "eo": {
+    "iso-639-2": [
+      "epo"
+    ],
+    "iso-639-1": "eo",
+    "english": "Esperanto",
+    "french": "espéranto",
+    "german": "Esperanto"
+  },
+  "et": {
+    "iso-639-2": [
+      "est"
+    ],
+    "iso-639-1": "et",
+    "english": "Estonian",
+    "french": "estonien",
+    "german": "Estnisch"
+  },
+  "ee": {
+    "iso-639-2": [
+      "ewe"
+    ],
+    "iso-639-1": "ee",
+    "english": "Ewe",
+    "french": "éwé",
+    "german": "Ewe-Sprache"
+  },
+  "fo": {
+    "iso-639-2": [
+      "fao"
+    ],
+    "iso-639-1": "fo",
+    "english": "Faroese",
+    "french": "féroïen",
+    "german": "Färöisch"
+  },
+  "fa": {
+    "iso-639-2": [
+      "per",
+      "fas"
+    ],
+    "iso-639-1": "fa",
+    "english": "Persian",
+    "french": "persan",
+    "german": "Persisch"
+  },
+  "fj": {
+    "iso-639-2": [
+      "fij"
+    ],
+    "iso-639-1": "fj",
+    "english": "Fijian",
+    "french": "fidjien",
+    "german": "Fidschi-Sprache"
+  },
+  "fi": {
+    "iso-639-2": [
+      "fin"
+    ],
+    "iso-639-1": "fi",
+    "english": "Finnish",
+    "french": "finnois",
+    "german": "Finnisch"
+  },
+  "fr": {
+    "iso-639-2": [
+      "fre",
+      "fra"
+    ],
+    "iso-639-1": "fr",
+    "english": "French",
+    "french": "français",
+    "german": "Französisch"
+  },
+  "fy": {
+    "iso-639-2": [
+      "fry"
+    ],
+    "iso-639-1": "fy",
+    "english": "Western Frisian",
+    "french": "frison occidental",
+    "german": "Friesisch"
+  },
+  "ff": {
+    "iso-639-2": [
+      "ful"
+    ],
+    "iso-639-1": "ff",
+    "english": "Fulah",
+    "french": "peul",
+    "german": "Ful"
+  },
+  "ka": {
+    "iso-639-2": [
+      "geo",
+      "kat"
+    ],
+    "iso-639-1": "ka",
+    "english": "Georgian",
+    "french": "géorgien",
+    "german": "Georgisch"
+  },
+  "gd": {
+    "iso-639-2": [
+      "gla"
+    ],
+    "iso-639-1": "gd",
+    "english": "Gaelic; Scottish Gaelic",
+    "french": "gaélique; gaélique écossais",
+    "german": "Gälisch-Schottisch"
+  },
+  "ga": {
+    "iso-639-2": [
+      "gle"
+    ],
+    "iso-639-1": "ga",
+    "english": "Irish",
+    "french": "irlandais",
+    "german": "Irisch"
+  },
+  "gl": {
+    "iso-639-2": [
+      "glg"
+    ],
+    "iso-639-1": "gl",
+    "english": "Galician",
+    "french": "galicien",
+    "german": "Galicisch"
+  },
+  "gv": {
+    "iso-639-2": [
+      "glv"
+    ],
+    "iso-639-1": "gv",
+    "english": "Manx",
+    "french": "manx; mannois",
+    "german": "Manx"
+  },
+  "gn": {
+    "iso-639-2": [
+      "grn"
+    ],
+    "iso-639-1": "gn",
+    "english": "Guarani",
+    "french": "guarani",
+    "german": "Guaraní-Sprache"
+  },
+  "gu": {
+    "iso-639-2": [
+      "guj"
+    ],
+    "iso-639-1": "gu",
+    "english": "Gujarati",
+    "french": "goudjrati",
+    "german": "Gujarati-Sprache"
+  },
+  "ht": {
+    "iso-639-2": [
+      "hat"
+    ],
+    "iso-639-1": "ht",
+    "english": "Haitian; Haitian Creole",
+    "french": "haïtien; créole haïtien",
+    "german": "Haïtien (Haiti-Kreolisch)"
+  },
+  "ha": {
+    "iso-639-2": [
+      "hau"
+    ],
+    "iso-639-1": "ha",
+    "english": "Hausa",
+    "french": "haoussa",
+    "german": "Haussa-Sprache"
+  },
+  "he": {
+    "iso-639-2": [
+      "heb"
+    ],
+    "iso-639-1": "he",
+    "english": "Hebrew",
+    "french": "hébreu",
+    "german": "Hebräisch"
+  },
+  "hz": {
+    "iso-639-2": [
+      "her"
+    ],
+    "iso-639-1": "hz",
+    "english": "Herero",
+    "french": "herero",
+    "german": "Herero-Sprache"
+  },
+  "hi": {
+    "iso-639-2": [
+      "hin"
+    ],
+    "iso-639-1": "hi",
+    "english": "Hindi",
+    "french": "hindi",
+    "german": "Hindi"
+  },
+  "ho": {
+    "iso-639-2": [
+      "hmo"
+    ],
+    "iso-639-1": "ho",
+    "english": "Hiri Motu",
+    "french": "hiri motu",
+    "german": "Hiri-Motu"
+  },
+  "hr": {
+    "iso-639-2": [
+      "hrv"
+    ],
+    "iso-639-1": "hr",
+    "english": "Croatian",
+    "french": "croate",
+    "german": "Kroatisch"
+  },
+  "hu": {
+    "iso-639-2": [
+      "hun"
+    ],
+    "iso-639-1": "hu",
+    "english": "Hungarian",
+    "french": "hongrois",
+    "german": "Ungarisch"
+  },
+  "ig": {
+    "iso-639-2": [
+      "ibo"
+    ],
+    "iso-639-1": "ig",
+    "english": "Igbo",
+    "french": "igbo",
+    "german": "Ibo-Sprache"
+  },
+  "is": {
+    "iso-639-2": [
+      "ice",
+      "isl"
+    ],
+    "iso-639-1": "is",
+    "english": "Icelandic",
+    "french": "islandais",
+    "german": "Isländisch"
+  },
+  "io": {
+    "iso-639-2": [
+      "ido"
+    ],
+    "iso-639-1": "io",
+    "english": "Ido",
+    "french": "ido",
+    "german": "Ido"
+  },
+  "ii": {
+    "iso-639-2": [
+      "iii"
+    ],
+    "iso-639-1": "ii",
+    "english": "Sichuan Yi; Nuosu",
+    "french": "yi de Sichuan",
+    "german": "Lalo-Sprache"
+  },
+  "iu": {
+    "iso-639-2": [
+      "iku"
+    ],
+    "iso-639-1": "iu",
+    "english": "Inuktitut",
+    "french": "inuktitut",
+    "german": "Inuktitut"
+  },
+  "ie": {
+    "iso-639-2": [
+      "ile"
+    ],
+    "iso-639-1": "ie",
+    "english": "Interlingue; Occidental",
+    "french": "interlingue",
+    "german": "Interlingue"
+  },
+  "ia": {
+    "iso-639-2": [
+      "ina"
+    ],
+    "iso-639-1": "ia",
+    "english": "Interlingua (International Auxiliary Language Association)",
+    "french": "interlingua (langue auxiliaire internationale)",
+    "german": "Interlingua"
+  },
+  "id": {
+    "iso-639-2": [
+      "ind"
+    ],
+    "iso-639-1": "id",
+    "english": "Indonesian",
+    "french": "indonésien",
+    "german": "Bahasa Indonesia"
+  },
+  "ik": {
+    "iso-639-2": [
+      "ipk"
+    ],
+    "iso-639-1": "ik",
+    "english": "Inupiaq",
+    "french": "inupiaq",
+    "german": "Inupik"
+  },
+  "it": {
+    "iso-639-2": [
+      "ita"
+    ],
+    "iso-639-1": "it",
+    "english": "Italian",
+    "french": "italien",
+    "german": "Italienisch"
+  },
+  "jv": {
+    "iso-639-2": [
+      "jav"
+    ],
+    "iso-639-1": "jv",
+    "english": "Javanese",
+    "french": "javanais",
+    "german": "Javanisch"
+  },
+  "ja": {
+    "iso-639-2": [
+      "jpn"
+    ],
+    "iso-639-1": "ja",
+    "english": "Japanese",
+    "french": "japonais",
+    "german": "Japanisch"
+  },
+  "kl": {
+    "iso-639-2": [
+      "kal"
+    ],
+    "iso-639-1": "kl",
+    "english": "Kalaallisut; Greenlandic",
+    "french": "groenlandais",
+    "german": "Grönländisch"
+  },
+  "kn": {
+    "iso-639-2": [
+      "kan"
+    ],
+    "iso-639-1": "kn",
+    "english": "Kannada",
+    "french": "kannada",
+    "german": "Kannada"
+  },
+  "ks": {
+    "iso-639-2": [
+      "kas"
+    ],
+    "iso-639-1": "ks",
+    "english": "Kashmiri",
+    "french": "kashmiri",
+    "german": "Kaschmiri"
+  },
+  "kr": {
+    "iso-639-2": [
+      "kau"
+    ],
+    "iso-639-1": "kr",
+    "english": "Kanuri",
+    "french": "kanouri",
+    "german": "Kanuri-Sprache"
+  },
+  "kk": {
+    "iso-639-2": [
+      "kaz"
+    ],
+    "iso-639-1": "kk",
+    "english": "Kazakh",
+    "french": "kazakh",
+    "german": "Kasachisch"
+  },
+  "km": {
+    "iso-639-2": [
+      "khm"
+    ],
+    "iso-639-1": "km",
+    "english": "Central Khmer",
+    "french": "khmer central",
+    "german": "Kambodschanisch"
+  },
+  "ki": {
+    "iso-639-2": [
+      "kik"
+    ],
+    "iso-639-1": "ki",
+    "english": "Kikuyu; Gikuyu",
+    "french": "kikuyu",
+    "german": "Kikuyu-Sprache"
+  },
+  "rw": {
+    "iso-639-2": [
+      "kin"
+    ],
+    "iso-639-1": "rw",
+    "english": "Kinyarwanda",
+    "french": "rwanda",
+    "german": "Rwanda-Sprache"
+  },
+  "ky": {
+    "iso-639-2": [
+      "kir"
+    ],
+    "iso-639-1": "ky",
+    "english": "Kirghiz; Kyrgyz",
+    "french": "kirghiz",
+    "german": "Kirgisisch"
+  },
+  "kv": {
+    "iso-639-2": [
+      "kom"
+    ],
+    "iso-639-1": "kv",
+    "english": "Komi",
+    "french": "kom",
+    "german": "Komi-Sprache"
+  },
+  "kg": {
+    "iso-639-2": [
+      "kon"
+    ],
+    "iso-639-1": "kg",
+    "english": "Kongo",
+    "french": "kongo",
+    "german": "Kongo-Sprache"
+  },
+  "ko": {
+    "iso-639-2": [
+      "kor"
+    ],
+    "iso-639-1": "ko",
+    "english": "Korean",
+    "french": "coréen",
+    "german": "Koreanisch"
+  },
+  "kj": {
+    "iso-639-2": [
+      "kua"
+    ],
+    "iso-639-1": "kj",
+    "english": "Kuanyama; Kwanyama",
+    "french": "kuanyama; kwanyama",
+    "german": "Kwanyama-Sprache"
+  },
+  "ku": {
+    "iso-639-2": [
+      "kur"
+    ],
+    "iso-639-1": "ku",
+    "english": "Kurdish",
+    "french": "kurde",
+    "german": "Kurdisch"
+  },
+  "lo": {
+    "iso-639-2": [
+      "lao"
+    ],
+    "iso-639-1": "lo",
+    "english": "Lao",
+    "french": "lao",
+    "german": "Laotisch"
+  },
+  "la": {
+    "iso-639-2": [
+      "lat"
+    ],
+    "iso-639-1": "la",
+    "english": "Latin",
+    "french": "latin",
+    "german": "Latein"
+  },
+  "lv": {
+    "iso-639-2": [
+      "lav"
+    ],
+    "iso-639-1": "lv",
+    "english": "Latvian",
+    "french": "letton",
+    "german": "Lettisch"
+  },
+  "li": {
+    "iso-639-2": [
+      "lim"
+    ],
+    "iso-639-1": "li",
+    "english": "Limburgan; Limburger; Limburgish",
+    "french": "limbourgeois",
+    "german": "Limburgisch"
+  },
+  "ln": {
+    "iso-639-2": [
+      "lin"
+    ],
+    "iso-639-1": "ln",
+    "english": "Lingala",
+    "french": "lingala",
+    "german": "Lingala"
+  },
+  "lt": {
+    "iso-639-2": [
+      "lit"
+    ],
+    "iso-639-1": "lt",
+    "english": "Lithuanian",
+    "french": "lituanien",
+    "german": "Litauisch"
+  },
+  "lb": {
+    "iso-639-2": [
+      "ltz"
+    ],
+    "iso-639-1": "lb",
+    "english": "Luxembourgish; Letzeburgesch",
+    "french": "luxembourgeois",
+    "german": "Luxemburgisch"
+  },
+  "lu": {
+    "iso-639-2": [
+      "lub"
+    ],
+    "iso-639-1": "lu",
+    "english": "Luba-Katanga",
+    "french": "luba-katanga",
+    "german": "Luba-Katanga-Sprache"
+  },
+  "lg": {
+    "iso-639-2": [
+      "lug"
+    ],
+    "iso-639-1": "lg",
+    "english": "Ganda",
+    "french": "ganda",
+    "german": "Ganda-Sprache"
+  },
+  "mk": {
+    "iso-639-2": [
+      "mac",
+      "mkd"
+    ],
+    "iso-639-1": "mk",
+    "english": "Macedonian",
+    "french": "macédonien",
+    "german": "Makedonisch"
+  },
+  "mh": {
+    "iso-639-2": [
+      "mah"
+    ],
+    "iso-639-1": "mh",
+    "english": "Marshallese",
+    "french": "marshall",
+    "german": "Marschallesisch"
+  },
+  "ml": {
+    "iso-639-2": [
+      "mal"
+    ],
+    "iso-639-1": "ml",
+    "english": "Malayalam",
+    "french": "malayalam",
+    "german": "Malayalam"
+  },
+  "mi": {
+    "iso-639-2": [
+      "mao",
+      "mri"
+    ],
+    "iso-639-1": "mi",
+    "english": "Maori",
+    "french": "maori",
+    "german": "Maori-Sprache"
+  },
+  "mr": {
+    "iso-639-2": [
+      "mar"
+    ],
+    "iso-639-1": "mr",
+    "english": "Marathi",
+    "french": "marathe",
+    "german": "Marathi"
+  },
+  "ms": {
+    "iso-639-2": [
+      "may",
+      "msa"
+    ],
+    "iso-639-1": "ms",
+    "english": "Malay",
+    "french": "malais",
+    "german": "Malaiisch"
+  },
+  "mg": {
+    "iso-639-2": [
+      "mlg"
+    ],
+    "iso-639-1": "mg",
+    "english": "Malagasy",
+    "french": "malgache",
+    "german": "Malagassi-Sprache"
+  },
+  "mt": {
+    "iso-639-2": [
+      "mlt"
+    ],
+    "iso-639-1": "mt",
+    "english": "Maltese",
+    "french": "maltais",
+    "german": "Maltesisch"
+  },
+  "mn": {
+    "iso-639-2": [
+      "mon"
+    ],
+    "iso-639-1": "mn",
+    "english": "Mongolian",
+    "french": "mongol",
+    "german": "Mongolisch"
+  },
+  "na": {
+    "iso-639-2": [
+      "nau"
+    ],
+    "iso-639-1": "na",
+    "english": "Nauru",
+    "french": "nauruan",
+    "german": "Nauruanisch"
+  },
+  "nv": {
+    "iso-639-2": [
+      "nav"
+    ],
+    "iso-639-1": "nv",
+    "english": "Navajo; Navaho",
+    "french": "navaho",
+    "german": "Navajo-Sprache"
+  },
+  "nr": {
+    "iso-639-2": [
+      "nbl"
+    ],
+    "iso-639-1": "nr",
+    "english": "Ndebele, South; South Ndebele",
+    "french": "ndébélé du Sud",
+    "german": "Ndebele-Sprache (Transvaal)"
+  },
+  "nd": {
+    "iso-639-2": [
+      "nde"
+    ],
+    "iso-639-1": "nd",
+    "english": "Ndebele, North; North Ndebele",
+    "french": "ndébélé du Nord",
+    "german": "Ndebele-Sprache (Simbabwe)"
+  },
+  "ng": {
+    "iso-639-2": [
+      "ndo"
+    ],
+    "iso-639-1": "ng",
+    "english": "Ndonga",
+    "french": "ndonga",
+    "german": "Ndonga"
+  },
+  "ne": {
+    "iso-639-2": [
+      "nep"
+    ],
+    "iso-639-1": "ne",
+    "english": "Nepali",
+    "french": "népalais",
+    "german": "Nepali"
+  },
+  "nn": {
+    "iso-639-2": [
+      "nno"
+    ],
+    "iso-639-1": "nn",
+    "english": "Norwegian Nynorsk; Nynorsk, Norwegian",
+    "french": "norvégien nynorsk; nynorsk, norvégien",
+    "german": "Nynorsk"
+  },
+  "nb": {
+    "iso-639-2": [
+      "nob"
+    ],
+    "iso-639-1": "nb",
+    "english": "Bokmål, Norwegian; Norwegian Bokmål",
+    "french": "norvégien bokmål",
+    "german": "Bokmål"
+  },
+  "no": {
+    "iso-639-2": [
+      "nor"
+    ],
+    "iso-639-1": "no",
+    "english": "Norwegian",
+    "french": "norvégien",
+    "german": "Norwegisch"
+  },
+  "ny": {
+    "iso-639-2": [
+      "nya"
+    ],
+    "iso-639-1": "ny",
+    "english": "Chichewa; Chewa; Nyanja",
+    "french": "chichewa; chewa; nyanja",
+    "german": "Nyanja-Sprache"
+  },
+  "oc": {
+    "iso-639-2": [
+      "oci"
+    ],
+    "iso-639-1": "oc",
+    "english": "Occitan (post 1500)",
+    "french": "occitan (après 1500)",
+    "german": "Okzitanisch"
+  },
+  "oj": {
+    "iso-639-2": [
+      "oji"
+    ],
+    "iso-639-1": "oj",
+    "english": "Ojibwa",
+    "french": "ojibwa",
+    "german": "Ojibwa-Sprache"
+  },
+  "or": {
+    "iso-639-2": [
+      "ori"
+    ],
+    "iso-639-1": "or",
+    "english": "Oriya",
+    "french": "oriya",
+    "german": "Oriya-Sprache"
+  },
+  "om": {
+    "iso-639-2": [
+      "orm"
+    ],
+    "iso-639-1": "om",
+    "english": "Oromo",
+    "french": "galla",
+    "german": "Galla-Sprache"
+  },
+  "os": {
+    "iso-639-2": [
+      "oss"
+    ],
+    "iso-639-1": "os",
+    "english": "Ossetian; Ossetic",
+    "french": "ossète",
+    "german": "Ossetisch"
+  },
+  "pa": {
+    "iso-639-2": [
+      "pan"
+    ],
+    "iso-639-1": "pa",
+    "english": "Panjabi; Punjabi",
+    "french": "pendjabi",
+    "german": "Pandschabi-Sprache"
+  },
+  "pi": {
+    "iso-639-2": [
+      "pli"
+    ],
+    "iso-639-1": "pi",
+    "english": "Pali",
+    "french": "pali",
+    "german": "Pali"
+  },
+  "pl": {
+    "iso-639-2": [
+      "pol"
+    ],
+    "iso-639-1": "pl",
+    "english": "Polish",
+    "french": "polonais",
+    "german": "Polnisch"
+  },
+  "pt": {
+    "iso-639-2": [
+      "por"
+    ],
+    "iso-639-1": "pt",
+    "english": "Portuguese",
+    "french": "portugais",
+    "german": "Portugiesisch"
+  },
+  "ps": {
+    "iso-639-2": [
+      "pus"
+    ],
+    "iso-639-1": "ps",
+    "english": "Pushto; Pashto",
+    "french": "pachto",
+    "german": "Paschtu"
+  },
+  "qu": {
+    "iso-639-2": [
+      "que"
+    ],
+    "iso-639-1": "qu",
+    "english": "Quechua",
+    "french": "quechua",
+    "german": "Quechua-Sprache"
+  },
+  "rm": {
+    "iso-639-2": [
+      "roh"
+    ],
+    "iso-639-1": "rm",
+    "english": "Romansh",
+    "french": "romanche",
+    "german": "Rätoromanisch"
+  },
+  "ro": {
+    "iso-639-2": [
+      "rum",
+      "ron"
+    ],
+    "iso-639-1": "ro",
+    "english": "Romanian; Moldavian; Moldovan",
+    "french": "roumain; moldave",
+    "german": "Rumänisch"
+  },
+  "rn": {
+    "iso-639-2": [
+      "run"
+    ],
+    "iso-639-1": "rn",
+    "english": "Rundi",
+    "french": "rundi",
+    "german": "Rundi-Sprache"
+  },
+  "ru": {
+    "iso-639-2": [
+      "rus"
+    ],
+    "iso-639-1": "ru",
+    "english": "Russian",
+    "french": "russe",
+    "german": "Russisch"
+  },
+  "sg": {
+    "iso-639-2": [
+      "sag"
+    ],
+    "iso-639-1": "sg",
+    "english": "Sango",
+    "french": "sango",
+    "german": "Sango-Sprache"
+  },
+  "sa": {
+    "iso-639-2": [
+      "san"
+    ],
+    "iso-639-1": "sa",
+    "english": "Sanskrit",
+    "french": "sanskrit",
+    "german": "Sanskrit"
+  },
+  "si": {
+    "iso-639-2": [
+      "sin"
+    ],
+    "iso-639-1": "si",
+    "english": "Sinhala; Sinhalese",
+    "french": "singhalais",
+    "german": "Singhalesisch"
+  },
+  "sk": {
+    "iso-639-2": [
+      "slo",
+      "slk"
+    ],
+    "iso-639-1": "sk",
+    "english": "Slovak",
+    "french": "slovaque",
+    "german": "Slowakisch"
+  },
+  "sl": {
+    "iso-639-2": [
+      "slv"
+    ],
+    "iso-639-1": "sl",
+    "english": "Slovenian",
+    "french": "slovène",
+    "german": "Slowenisch"
+  },
+  "se": {
+    "iso-639-2": [
+      "sme"
+    ],
+    "iso-639-1": "se",
+    "english": "Northern Sami",
+    "french": "sami du Nord",
+    "german": "Nordsaamisch"
+  },
+  "sm": {
+    "iso-639-2": [
+      "smo"
+    ],
+    "iso-639-1": "sm",
+    "english": "Samoan",
+    "french": "samoan",
+    "german": "Samoanisch"
+  },
+  "sn": {
+    "iso-639-2": [
+      "sna"
+    ],
+    "iso-639-1": "sn",
+    "english": "Shona",
+    "french": "shona",
+    "german": "Schona-Sprache"
+  },
+  "sd": {
+    "iso-639-2": [
+      "snd"
+    ],
+    "iso-639-1": "sd",
+    "english": "Sindhi",
+    "french": "sindhi",
+    "german": "Sindhi-Sprache"
+  },
+  "so": {
+    "iso-639-2": [
+      "som"
+    ],
+    "iso-639-1": "so",
+    "english": "Somali",
+    "french": "somali",
+    "german": "Somali"
+  },
+  "st": {
+    "iso-639-2": [
+      "sot"
+    ],
+    "iso-639-1": "st",
+    "english": "Sotho, Southern",
+    "french": "sotho du Sud",
+    "german": "Süd-Sotho-Sprache"
+  },
+  "es": {
+    "iso-639-2": [
+      "spa"
+    ],
+    "iso-639-1": "es",
+    "english": "Spanish; Castilian",
+    "french": "espagnol; castillan",
+    "german": "Spanisch"
+  },
+  "sc": {
+    "iso-639-2": [
+      "srd"
+    ],
+    "iso-639-1": "sc",
+    "english": "Sardinian",
+    "french": "sarde",
+    "german": "Sardisch"
+  },
+  "sr": {
+    "iso-639-2": [
+      "srp"
+    ],
+    "iso-639-1": "sr",
+    "english": "Serbian",
+    "french": "serbe",
+    "german": "Serbisch"
+  },
+  "ss": {
+    "iso-639-2": [
+      "ssw"
+    ],
+    "iso-639-1": "ss",
+    "english": "Swati",
+    "french": "swati",
+    "german": "Swasi-Sprache"
+  },
+  "su": {
+    "iso-639-2": [
+      "sun"
+    ],
+    "iso-639-1": "su",
+    "english": "Sundanese",
+    "french": "soundanais",
+    "german": "Sundanesisch"
+  },
+  "sw": {
+    "iso-639-2": [
+      "swa"
+    ],
+    "iso-639-1": "sw",
+    "english": "Swahili",
+    "french": "swahili",
+    "german": "Swahili"
+  },
+  "sv": {
+    "iso-639-2": [
+      "swe"
+    ],
+    "iso-639-1": "sv",
+    "english": "Swedish",
+    "french": "suédois",
+    "german": "Schwedisch"
+  },
+  "ty": {
+    "iso-639-2": [
+      "tah"
+    ],
+    "iso-639-1": "ty",
+    "english": "Tahitian",
+    "french": "tahitien",
+    "german": "Tahitisch"
+  },
+  "ta": {
+    "iso-639-2": [
+      "tam"
+    ],
+    "iso-639-1": "ta",
+    "english": "Tamil",
+    "french": "tamoul",
+    "german": "Tamil"
+  },
+  "tt": {
+    "iso-639-2": [
+      "tat"
+    ],
+    "iso-639-1": "tt",
+    "english": "Tatar",
+    "french": "tatar",
+    "german": "Tatarisch"
+  },
+  "te": {
+    "iso-639-2": [
+      "tel"
+    ],
+    "iso-639-1": "te",
+    "english": "Telugu",
+    "french": "télougou",
+    "german": "Telugu-Sprache"
+  },
+  "tg": {
+    "iso-639-2": [
+      "tgk"
+    ],
+    "iso-639-1": "tg",
+    "english": "Tajik",
+    "french": "tadjik",
+    "german": "Tadschikisch"
+  },
+  "tl": {
+    "iso-639-2": [
+      "tgl"
+    ],
+    "iso-639-1": "tl",
+    "english": "Tagalog",
+    "french": "tagalog",
+    "german": "Tagalog"
+  },
+  "th": {
+    "iso-639-2": [
+      "tha"
+    ],
+    "iso-639-1": "th",
+    "english": "Thai",
+    "french": "thaï",
+    "german": "Thailändisch"
+  },
+  "ti": {
+    "iso-639-2": [
+      "tir"
+    ],
+    "iso-639-1": "ti",
+    "english": "Tigrinya",
+    "french": "tigrigna",
+    "german": "Tigrinja-Sprache"
+  },
+  "to": {
+    "iso-639-2": [
+      "ton"
+    ],
+    "iso-639-1": "to",
+    "english": "Tonga (Tonga Islands)",
+    "french": "tongan (Îles Tonga)",
+    "german": "Tongaisch"
+  },
+  "tn": {
+    "iso-639-2": [
+      "tsn"
+    ],
+    "iso-639-1": "tn",
+    "english": "Tswana",
+    "french": "tswana",
+    "german": "Tswana-Sprache"
+  },
+  "ts": {
+    "iso-639-2": [
+      "tso"
+    ],
+    "iso-639-1": "ts",
+    "english": "Tsonga",
+    "french": "tsonga",
+    "german": "Tsonga-Sprache"
+  },
+  "tk": {
+    "iso-639-2": [
+      "tuk"
+    ],
+    "iso-639-1": "tk",
+    "english": "Turkmen",
+    "french": "turkmène",
+    "german": "Turkmenisch"
+  },
+  "tr": {
+    "iso-639-2": [
+      "tur"
+    ],
+    "iso-639-1": "tr",
+    "english": "Turkish",
+    "french": "turc",
+    "german": "Türkisch"
+  },
+  "tw": {
+    "iso-639-2": [
+      "twi"
+    ],
+    "iso-639-1": "tw",
+    "english": "Twi",
+    "french": "twi",
+    "german": "Twi-Sprache"
+  },
+  "ug": {
+    "iso-639-2": [
+      "uig"
+    ],
+    "iso-639-1": "ug",
+    "english": "Uighur; Uyghur",
+    "french": "ouïgour",
+    "german": "Uigurisch"
+  },
+  "uk": {
+    "iso-639-2": [
+      "ukr"
+    ],
+    "iso-639-1": "uk",
+    "english": "Ukrainian",
+    "french": "ukrainien",
+    "german": "Ukrainisch"
+  },
+  "ur": {
+    "iso-639-2": [
+      "urd"
+    ],
+    "iso-639-1": "ur",
+    "english": "Urdu",
+    "french": "ourdou",
+    "german": "Urdu"
+  },
+  "uz": {
+    "iso-639-2": [
+      "uzb"
+    ],
+    "iso-639-1": "uz",
+    "english": "Uzbek",
+    "french": "ouszbek",
+    "german": "Usbekisch"
+  },
+  "ve": {
+    "iso-639-2": [
+      "ven"
+    ],
+    "iso-639-1": "ve",
+    "english": "Venda",
+    "french": "venda",
+    "german": "Venda-Sprache"
+  },
+  "vi": {
+    "iso-639-2": [
+      "vie"
+    ],
+    "iso-639-1": "vi",
+    "english": "Vietnamese",
+    "french": "vietnamien",
+    "german": "Vietnamesisch"
+  },
+  "vo": {
+    "iso-639-2": [
+      "vol"
+    ],
+    "iso-639-1": "vo",
+    "english": "Volapük",
+    "french": "volapük",
+    "german": "Volapük"
+  },
+  "wa": {
+    "iso-639-2": [
+      "wln"
+    ],
+    "iso-639-1": "wa",
+    "english": "Walloon",
+    "french": "wallon",
+    "german": "Wallonisch"
+  },
+  "wo": {
+    "iso-639-2": [
+      "wol"
+    ],
+    "iso-639-1": "wo",
+    "english": "Wolof",
+    "french": "wolof",
+    "german": "Wolof-Sprache"
+  },
+  "xh": {
+    "iso-639-2": [
+      "xho"
+    ],
+    "iso-639-1": "xh",
+    "english": "Xhosa",
+    "french": "xhosa",
+    "german": "Xhosa-Sprache"
+  },
+  "yi": {
+    "iso-639-2": [
+      "yid"
+    ],
+    "iso-639-1": "yi",
+    "english": "Yiddish",
+    "french": "yiddish",
+    "german": "Jiddisch"
+  },
+  "yo": {
+    "iso-639-2": [
+      "yor"
+    ],
+    "iso-639-1": "yo",
+    "english": "Yoruba",
+    "french": "yoruba",
+    "german": "Yoruba-Sprache"
+  },
+  "za": {
+    "iso-639-2": [
+      "zha"
+    ],
+    "iso-639-1": "za",
+    "english": "Zhuang; Chuang",
+    "french": "zhuang; chuang",
+    "german": "Zhuang"
+  },
+  "zu": {
+    "iso-639-2": [
+      "zul"
+    ],
+    "iso-639-1": "zu",
+    "english": "Zulu",
+    "french": "zoulou",
+    "german": "Zulu-Sprache"
+  }
+}

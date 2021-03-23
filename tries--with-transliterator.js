@@ -382,7 +382,7 @@ class RuleProcessor {
     _rules = [];
 
     async loadRuleFile(languageCode, type) {
-        const response = await loadFile(`rules/${type}s/${languageCode}.txt`);
+        const response = await loadFile(`processors/rules/${type}s/${languageCode}.txt`);
         if(!response) return;
         const charGroupRegex = /^::\p{L}+?::\s+?=\s+?[\p{L}|]+/gmu;
         const ruleRegex = /^[\p{L}\[\]|]+?\s+->\s+[\p{L}\p{M}\[\]<>|0]+\s+\/\s+.*?$/gmu;
@@ -404,8 +404,8 @@ const trieWord = new TrieWordStepper();
 const trieOrthography = new TrieOrthographyStepper();
 
 async function translate(language, text) {
-    await trieWord.loadDictionary(`translations/${language}`);
-    await trieOrthography.loadDictionary(`maps/${language}`);
+    await trieWord.loadDictionary(`combined-dictionaries/${language}`);
+    await trieOrthography.loadDictionary(`processors/maps/${language}`);
     const ruleProcessor = new RuleProcessor();
     trieOrthography.addRulePreprocessorForLanguage(ruleProcessor, language);
     trieOrthography.addRulePostprocessorForLanguage(ruleProcessor, language);

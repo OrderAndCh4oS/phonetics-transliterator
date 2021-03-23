@@ -1,0 +1,9 @@
+% Palatalization
+cci -> <ttS> / _ [aeou]
+ci -> <tS> / _ [aeou]
+ggi -> <ddZ> / _ [aeou]
+gi -> <dZ> / _ [aeou]
+cc -> <ttS> / _ [ie]
+c -> <tS> / _ [ie]
+gg -> <ddZ> / _ [ie]
+g -> <dZ> / _ [ie]

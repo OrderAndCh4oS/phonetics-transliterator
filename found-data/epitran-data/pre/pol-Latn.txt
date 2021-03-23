@@ -1,0 +1,37 @@
+::nasal_vowel:: = ą|ę
+::vowel:: = a|ą|e|ę|i|o|ó|u|y
+::vow_not_i:: = a|ą|e|ę|o|ó|u|y
+::consonant:: = b|c|ć|cz|d|dź|dż|f|g|h|ch|j|k|l|ł|m|n|ń|p|r|s|ś|sz|t|w|z|ź|ż|rz
+
+% After nasalized vowels
+0 -> m / (::nasal_vowel::) _ (b|p)
+0 -> ɲ　/ (::nasal_vowel::) _ (ć|dź)
+0 -> n / (::nasal_vowel::) _ (d|t|c|dz)
+0 -> ŋ　/ (::nasal_vowel::) _ (g|k)
+
+% Palatalized consonants
+ci -> t͡ɕ / _ (::vow_not_i::)
+dzi -> d͡ʑ / _ (::vow_not_i::)
+si -> ɕ / _ (::vow_not_i::)
+zi -> ʑ / _ (::vow_not_i::)
+ni -> ɲ / _ (::vow_not_i::)
+ki -> kʲ / _ e
+gi -> ɡʲ / _ e
+c -> t͡ɕ / _ i
+dz -> d͡ʑ / _ i
+s -> ɕ / _ i
+z -> ʑ / _ i
+n -> ɲ / _ i
+k -> kʲ / _ i
+g -> ɡʲ / _ i
+
+% Glide formation
+u -> w / (::vowel::) _
+i -> j / (::vowel::) _ (::consonant::)
+i -> j / _ (::vowel::)
+
+% Denasalization
+ą -> ɔ / _ (l|ł|m|n|ɲ|ŋ)
+ę -> ɛ / _ (l|ł|m|n|ɲ|ŋ)
+ę -> ɛ / _ #
+

@@ -1,0 +1,6 @@
+::front_vowel:: = eéèêëiîïyEÉÈÊËIÎÏY
+
+x -> ks / _ [::front_vowel::]
+c -> s / _ [::front_vowel::]
+g -> ʒ / _ [::front_vowel::]
+sc -> s / _ [::front_vowel::]

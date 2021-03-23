@@ -1,0 +1,12 @@
+::vowel:: = aeiou
+
+% Palatalization
+ti -> t͡ʃ / _ [::vowel::]
+di -> d͡ʒ / _ [::vowel::]
+si -> ʃ / _ [::vowel::]
+ni -> nʲ / _ [::vowel::]
+li -> lʲ / _ [::vowel::]
+
+% Devocalization
+u -> w / . _ [::vowel::]
+i -> j / . _ [::vowel::]

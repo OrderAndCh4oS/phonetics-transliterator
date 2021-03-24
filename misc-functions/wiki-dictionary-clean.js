@@ -20,15 +20,15 @@ function writeFileAsync(fileName, dataStr) {
 
 async function combineIpaAndWikiDictionaries() {
     const wiki = [
-        'ita_phonetic.tsv',
-        'rus_phonetic.tsv',
-        'cze_phonetic.tsv',
-        'lat_phonetic.tsv',
-        'por_po_phonetic.tsv',
-        'dan_phonetic.tsv',
-        'hun_phonetic.tsv',
-        'yid_phonetic.tsv',
-        'gre_phonetic.tsv',
+        // 'ita_phonetic.tsv',
+        // 'rus_phonetic.tsv',
+        // 'cze_phonetic.tsv',
+        'lat_clas_phonetic.tsv',
+        // 'por_po_phonetic.tsv',
+        // 'dan_phonetic.tsv',
+        // 'hun_phonetic.tsv',
+        // 'yid_phonetic.tsv',
+        // 'gre_phonetic.tsv',
     ];
 
     for (let i = 0; i < wiki.length; i++) {

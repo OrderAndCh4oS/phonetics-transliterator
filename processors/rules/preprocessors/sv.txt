@@ -1,10 +1,10 @@
-::front_vowel:: = e|i|y|ä|ö
+::frontVowel:: = e|i|y|ä|ö
 ::consonant:: = b|c|ch|d|dj|f|g|gj|gn|h|hj|j|k|kj|l|lj|m|n|p|r|s|sj|sk|skj|stj|t|tj|v|w|x|z
 
 % "Palatalization"
-c -> s / _ (::front_vowel::)
-g -> j / _ (::front_vowel::)
-k -> ɕ / _ (::front_vowel::)
+c -> s / _ (::frontVowel::)
+g -> j / _ (::frontVowel::)
+k -> ɕ / _ (::frontVowel::)
 
 % Shortening before double consonants
 a -> ɐ / _ (::consonant::)(::consonant::)

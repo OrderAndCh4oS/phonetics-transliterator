@@ -456,7 +456,7 @@ class TrieWordStepper extends TrieStepperAbstract {
 
     /**
      * Adds an orthography stepper to the trie word stepper.
-     * @param {OrthographyStepper} orthographyStepper - An orthography stepper to add.
+     * @param {TrieOrthographyStepper} orthographyStepper - An orthography stepper to add.
      */
     addOrthographyStepper(orthographyStepper) {
         this._orthographyStepper = orthographyStepper;
@@ -572,20 +572,20 @@ class TrieOrthographyStepper extends TrieStepperAbstract {
 
     /**
      * Adds a rule preprocessor for the given language.
-     * @param {RuleProcessor} ruleProcessor - The rule processor object to add.
      * @param {string} languageCode - The language code for which to add the processor.
      */
-    addRulePreprocessorForLanguage(ruleProcessor, languageCode) {
+    addRulePreprocessorForLanguage(languageCode) {
+        const ruleProcessor = new RuleProcessor();
         ruleProcessor.loadRuleFile(languageCode, 'preprocessor');
         this._rulePreprocessors[languageCode] = ruleProcessor;
     }
 
     /**
      * Adds a rule postprocessor for the given language.
-     * @param {RuleProcessor} ruleProcessor - The rule processor object to add.
      * @param {string} languageCode - The language code for which to add the processor.
      */
-    addRulePostprocessorForLanguage(ruleProcessor, languageCode) {
+    addRulePostprocessorForLanguage(languageCode) {
+        const ruleProcessor = new RuleProcessor();
         ruleProcessor.loadRuleFile(languageCode, 'postprocessor');
         this._rulePostprocessors[languageCode] = ruleProcessor;
     }
@@ -770,8 +770,8 @@ const trieOrthography = new TrieOrthographyStepper();
 function translate(language, text) {
     trieWord.loadDictionary(language);
     trieOrthography.loadDictionary(language);
-    trieOrthography.addRulePreprocessorForLanguage(new RuleProcessor(), language);
-    trieOrthography.addRulePostprocessorForLanguage(new RuleProcessor(), language);
+    trieOrthography.addRulePreprocessorForLanguage(language);
+    trieOrthography.addRulePostprocessorForLanguage(language);
     trieWord.addOrthographyStepper(trieOrthography);
     const result = trieWord.translateText(text);
     trieWord.clear();

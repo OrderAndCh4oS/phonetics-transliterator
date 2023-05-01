@@ -4,33 +4,32 @@ The IPA Transliterator is a JavaScript library that translates text to the Inter
 
 ## Usage
 
-To use the IPA Transliterator, include the `ipa.js` file in your HTML file:
-
-```html
-<script src="ipa.js"></script>
+Set a language
+```js
+const language = 'en_UK'; 
 ```
 
-Then, create a new instance of the `TrieWordStepper` class and load the dictionary for the language you want to translate:
+Create a new instance of the `TrieWordStepper` class and load the dictionary for the language you want to translate:
 
 ```javascript
 const trieWord = new TrieWordStepper();
-trieWord.loadDictionary('en');
+trieWord.loadDictionary(language);
 ```
 
+The TrieOrthographySteppers provide rules for generating phonetics where there may be gaps in an IPA dictionary
 You can then create a new instance of the `TrieOrthographyStepper` class and add it as an orthography stepper to the `TrieWordStepper` instance:
 
 ```javascript
 const trieOrthography = new TrieOrthographyStepper();
-trieOrthography.loadDictionary('en');
+trieOrthography.loadDictionary(language);
 trieWord.addOrthographyStepper(trieOrthography);
 ```
 
-You can also add custom rule processors to the `TrieOrthographyStepper` instance:
+You can add custom rule processors to the `TrieOrthographyStepper` instance:
 
 ```javascript
-const ruleProcessor = new RuleProcessor();
-trieOrthography.addRulePreprocessor(ruleProcessor);
-trieOrthography.addRulePostprocessor(ruleProcessor);
+trieOrthography.addRulePreprocessor(language);
+trieOrthography.addRulePostprocessor(language);
 ```
 
 Finally, you can translate a piece of text using the `translateText` method of the `TrieWordStepper` instance:
@@ -38,7 +37,7 @@ Finally, you can translate a piece of text using the `translateText` method of t
 ```javascript
 const text = 'Hello world!';
 const result = trieWord.translateText(text);
-console.log(result); // həˈloʊ wɔrld
+console.log(result); // həˈloʊ wɔrld!
 ```
 
 ## License

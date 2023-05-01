@@ -1,6 +1,6 @@
 # International Phonetic Alphabet (IPA) Transliterator
 
-The IPA Transliterator is a JavaScript library that translates text to the International Phonetic Alphabet (IPA) using a set of phonological rules and a dictionary of words. The library uses a trie data structure to efficiently search for words in the dictionary and apply phonological rules to the words. The library also supports pre- and post-processing of rules using custom rule processors.
+The IPA Transliterator is a JavaScript library that translates text to the International Phonetic Alphabet (IPA) using a dictionary of words and a set of phonological rules. The library uses a trie data structure to efficiently search for words in the dictionary and apply phonological rules to the words. The library also supports pre- and post-processing of rules using custom rule processors.
 
 ## Usage
 
@@ -44,6 +44,10 @@ console.log(result); // həˈloʊ wɔrld!
 
 The IPA Transliterator is released under the MIT License. See the LICENSE file for details.
 
+## Epitran
+
+The orthography stepper uses rules and processes heavily borrowed from Epitran https://github.com/dmort27/epitran
+
 ## Other Resources
 
 Berklee Resources:
@@ -61,3 +65,5 @@ https://www.lieder.net/
 
 Translation site
 https://easypronunciation.com/
+
+
